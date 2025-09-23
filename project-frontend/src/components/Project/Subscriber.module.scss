@@ -1,0 +1,50 @@
+.loginSection1 {
+    @apply border-[1.11px] border-[#D3D3D3] text-sm  text-[#474747] px-5 py-3 rounded-full;
+  }
+
+//Subscriber Login Page
+.loginheading{
+    @apply text-center text-primary-Color1 text-2xl font-bold pb-2;
+}
+
+.submitButton{
+    @apply bg-[#1F467D] text-primary-Color6 hover:bg-[#16355E] border-1 border-primary-Color1 rounded-full py-2 px-10 ;
+}
+
+.cancelButton{
+    @apply bg-[#F2F3F9] text-primary-Color2 font-semibold hover:bg-[#ffffff] border-1 border-primary-Color1 rounded-full py-2 px-10;
+}
+
+.custom-select {
+    .MuiOutlinedInput-root {
+      border-radius: 16px !important; // Adjust the radius as needed
+    }
+  
+    .MuiInputLabel-root {
+      border-radius: 16px !important;
+    }
+  
+    .MuiSelect-select {
+      border-radius: 16px !important;
+    }
+  }
+
+.PaymentProjectSummary{
+    @apply text-[#14161A] text-xl leading-[144%] px-5;
+}
+
+.PaymentProjectsubheading{
+    @apply text-primary-Color1 text-base font-semibold;
+}
+
+.PaymentProjectsubheading2{
+    @apply text-primary-Color1 text-sm font-semibold;
+}
+
+.PaymentProjecttitle2{
+  @apply text-sm font-normal text-[#676767];
+}
+
+.verticalDivider{
+  @apply w-px h-11 bg-[#C4C5CF];
+} 
