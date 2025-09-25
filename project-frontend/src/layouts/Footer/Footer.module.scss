@@ -28,7 +28,7 @@
   @apply text-primary-Color6 text-normaltext font-normal py-1;
 
   &:hover {
-    @apply text-[#000] font-bold;
+    @apply text-amber-900 font-bold;
   }
 
   &:last-child {
@@ -46,6 +46,10 @@
 
 .emailText {
   @apply flex items-center gap-2 mt-5 text-normaltext font-semibold text-primary-Color6;
+  
+  &:hover {
+    @apply text-amber-900 font-bold;
+  }
 }
 
 .footerImg {
