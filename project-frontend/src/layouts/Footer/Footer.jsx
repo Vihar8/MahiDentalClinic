@@ -23,42 +23,38 @@ const Footer = () => {
             className="!mt-0"
           >
             <Grid item xs={12} sm={4.5} md={4.5} lg={5}>
-             <div className={`${classes.footerImg}`}>
+              <div className={`${classes.footerImg}`}>
                 <img alt="Logo" src={footerlogo} className="w-[108px] rounded-md" />
               </div>
               <div className={`${classes.footerDivide}`}>
                 <h4 className={`${classes.footerHeading}`}>
-                     MAHI DENTAL CLINIC
+                  MAHI DENTAL CLINIC
                 </h4>
-                 <p className={`${classes.footerText}`}>
-                 Mahi Dental Clinic has more than 15000 satisfied patients. Located in Sector 7, Gandhinagar, our clinic provides world-class dental treatment using state-of-the-art dental instruments, delivered by a highly trained and experienced team of specialist dentists. With a strong reputation (4.7/5) from our patients, we’re committed to excellence in every service.
-                 Dental Clinic in Gandhinagar, Dental Clinic Near Me, Best Dentist in Gandhinagar
+                <p className={`${classes.footerText}`}>
+                  Mahi Dental Clinic has more than 15000 satisfied patients. Located in Sector 7, Gandhinagar, our clinic provides world-class dental treatment using state-of-the-art dental instruments, delivered by a highly trained and experienced team of specialist dentists. With a strong reputation (4.7/5) from our patients, we’re committed to excellence in every service.
+                  Dental Clinic in Gandhinagar, Dental Clinic Near Me, Best Dentist in Gandhinagar
                 </p>
                 <p className={`${classes.footerText}`}>
-                Block C, Sector 7, Gandhinagar, Gandhinagar Sector 7-382007
+                  Block C, Sector 7, Gandhinagar, Gandhinagar Sector 7-382007
                 </p>
 
-
-                <p className={`${classes.emailText}`}>
+                <p className={`${classes.emailText} contactWrapper`}>
+                  <span className="icon">
                     <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      viewBox="0 0 16 16"
+                      aria-hidden="true"
                     >
-                    <path
-                        d="M3 6H21V18H3V6ZM5 8V9.19727L12 13.1973L19 9.19727V8H5ZM5 10.8027V16H19V10.8027L12 14.8027L5 10.8027Z"
-                        fill="#ffffff"
-                    />
+                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 3.383-6.447 3.868a1 1 0 0 1-1.106 0L1 6.383V12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V6.383z" />
                     </svg>
 
-                  <Link
-                    to="mailto:info@mahidental.in"
-                  >
-                    info@mahidental.in
-                  </Link>
+                  </span>
+                  <Link to="mailto:info@mahidental.in">info@mahidental.in</Link>
                 </p>
+
 
                 <p className={`${classes.emailText} contactWrapper`}>
                   <span className="icon">

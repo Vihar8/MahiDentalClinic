@@ -14,7 +14,7 @@ const TopMenu = () => {
   const dropdownRef1 = useRef(null);
   
   const handleLogin = () => {
-    navigate("/")
+    navigate("/appointmentpage")
   };
    
 
@@ -66,127 +66,127 @@ const TopMenu = () => {
                 </label>
                 <ul className="subMenu">
                   <li>
-                    <Link to="/">
+                    <Link to="/our-services/braces-aligners">
                       <MinusOutlined className="dashIcons" />
                       BRACES & ALIGNERS
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link to="/our-services/painless-root-canal">
                       <MinusOutlined className="dashIcons" />
                       PAINLESS ROOT CANAL
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link to="/our-services/dental-implant">
                       <MinusOutlined className="dashIcons" />
                       DENTAL IMPLANT
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link to="/our-services/denture">
                       <MinusOutlined className="dashIcons" />
                      DENTURE
                     </Link>
                   </li>
                    <li>
-                    <Link to="/">
+                    <Link to="/our-services/crowns-bridges">
                       <MinusOutlined className="dashIcons" />
                      CROWNS & BRIDGES
                     </Link>
                   </li>
                    <li>
-                    <Link to="/">
+                    <Link to="/our-services/full-mouth-reconstruction">
                       <MinusOutlined className="dashIcons" />
                      FULL MOUTH RECONSTRUCTION
                     </Link>
                   </li>
                    <li>
-                    <Link to="/">
+                    <Link to="/our-services/children-dentistry">
                       <MinusOutlined className="dashIcons" />
                      CHILDREN DENTISTRY
                     </Link>
                   </li>
                    <li>
-                    <Link to="/">
+                    <Link to="/our-services/teeth-whitening">
                       <MinusOutlined className="dashIcons" />
                      TEETH WHITENING
                     </Link>
                   </li>
                    <li>
-                    <Link to="/">
+                    <Link to="/our-services/veneer-componeers">
                       <MinusOutlined className="dashIcons" />
                      VENEER AND COMPONEERS
                     </Link>
                   </li>
                    <li>
-                    <Link to="/">
+                    <Link to="/our-services/tmj-disorder">
                       <MinusOutlined className="dashIcons" />
                      TMJ DISORDER
                     </Link>
                   </li>
                    <li>
-                    <Link to="/">
+                    <Link to="/our-services/fillings-inlays-and-onlays">
                       <MinusOutlined className="dashIcons" />
                      FILLINGS, INLAYS AND ONLAYS
                     </Link>
                   </li>
                     <li>
-                    <Link to="/">
+                    <Link to="/our-services/jaw-bone-regenration">
                       <MinusOutlined className="dashIcons" />
                     JAW BONE REGENERATION
                     </Link>
                   </li>
                     <li>
-                    <Link to="/">
+                    <Link to="/our-services/gum-disease">
                       <MinusOutlined className="dashIcons" />
                      GUM DISEASE TREATMENT
                     </Link>
                   </li>
                     <li>
-                    <Link to="/">
+                    <Link to="/our-services/gum-depigmentation-and-gum-contouring">
                       <MinusOutlined className="dashIcons" />
                      GUM DEPIGMENTATION AND GUM CONTOURING
                     </Link>
                   </li>
                     <li>
-                    <Link to="/">
+                    <Link to="/our-services/gum-repositioning-surgery">
                       <MinusOutlined className="dashIcons" />
                      GUM REPOSITIONING SURGERY
                     </Link>
                   </li>
                     <li>
-                    <Link to="/">
+                    <Link to="/our-services/flouride-treatment">
                       <MinusOutlined className="dashIcons" />
                      FLOURIDE TREATMENT
                     </Link>
                   </li>
                     <li>
-                    <Link to="/">
+                    <Link to="/our-services/teeth-straightening">
                       <MinusOutlined className="dashIcons" />
                      TEETH STRAIGHTENING
                     </Link>
                   </li>
                     <li>
-                    <Link to="/">
+                    <Link to="/our-services/jaw-growth-guidance">
                       <MinusOutlined className="dashIcons" />
                      JAW GROWTH GUIDANCE
                     </Link>
                   </li>
                     <li>
-                    <Link to="/">
+                    <Link to="/our-services/orthognathic-surgery">
                       <MinusOutlined className="dashIcons" />
                     ORTHOGNATHIC SURGERY
                     </Link>
                   </li>
                     <li>
-                    <Link to="/">
+                    <Link to="/our-services/habit-breaking-appliances">
                       <MinusOutlined className="dashIcons" />
                      HABIT BREAKING APPLIANCES
                     </Link>
                   </li>
                     <li>
-                    <Link to="/">
+                    <Link to="/our-services/preventive-sealants">
                       <MinusOutlined className="dashIcons" />
                      PREVENTIVE SEALANTS
                     </Link>
