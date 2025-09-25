@@ -5,6 +5,7 @@ import Layout from "../layouts/Layout";
 import GuestGuard from "../utils/GuestGuard";
 import ForgotPassword from "../pages/ForgotPassword";
 import ContactsUs from "../components/AboutPages/ContactsUs";
+import AppointmentPage from "../pages/AppointmentPage";
 const Landing = Loadable(lazy(() => import("../pages/Landing")));
 const Login = Loadable(lazy(() => import("../pages/Login")));
 const Project = Loadable(lazy(() => import("../pages/Project")));
@@ -24,6 +25,7 @@ const ProjectSummary = Loadable(
 const ProjectCapacity = Loadable(
   lazy(() => import("../components/Project/ProjectCapacity/ProjectCapacity"))
 );
+const TreatmentPage = Loadable(lazy(() => import("../pages/TreatmentPage")));
 const PlantOwnerRegistration = Loadable(
   lazy(
     () =>
@@ -50,6 +52,10 @@ const PublicRoutes = {
       path: "/login",
       element: <Login />,
     },
+     {
+      path: "/appointmentpage",
+      element: <AppointmentPage />,
+    },
     {
       path: "/contactus",
       element: <ContactsUs />,
@@ -57,6 +63,10 @@ const PublicRoutes = {
     {
       path: "/project",
       element: <Project />,
+    },
+    {
+      path: "/our-services/:id",
+      element: <TreatmentPage />,
     },
     {
       path: "/plantdetails",

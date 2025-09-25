@@ -13,3 +13,58 @@
 .listStyles {
   @apply list-disc pl-8;
 }
+
+/* Hero Section */
+.heroSection {
+  @apply relative w-full min-h-[400px] mb-16;
+}
+
+.solarProjects {
+    @apply text-center bg-[#FFFFFF] ;
+  }
+  
+  /* Background Image */
+  .bgImage {
+    @apply absolute top-0 left-0 w-full h-full object-cover;
+  }
+  
+  /* Text Container */
+  .textContainer {
+    @apply text-center relative z-0 max-w-[939px] mx-auto  pt-12;
+  }
+  
+  .heading {
+    @apply text-[62px] leading-[65px] font-bold text-white text-center;
+  }
+  
+  .description {
+    @apply text-[15px] leading-[30.24px] font-semibold text-white text-center w-full max-w-[877px] mx-auto mt-4;
+  }
+
+  /* Check Digital Solar Section */
+  .checkSolar {
+    @apply max-w-full px-10 mx-10 mt-5 flex flex-wrap items-center justify-center md:justify-between text-base
+            py-3 border-[#676767] rounded-full mb-5
+            bg-gradient-to-r from-[#8BB8E8]/20 to-[#04C19C]/20;
+    border: 1px solid black;
+
+}
+.checkspan{
+  @apply text-black font-bold text-2xl;
+}
+
+.checkBtn {
+    @apply p-4 m-2 text-white text-sm font-bold items-center justify-center bg-[#1F467D] rounded-full shadow-md;
+}
+
+.head {
+  @apply font-bold text-2xl m-4;
+}
+
+.para {
+  @apply font-medium text-lg m-4;
+}
+
+.icon {
+  @apply w-full max-w-96 block m-auto; 
+}
