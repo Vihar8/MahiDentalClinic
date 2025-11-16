@@ -3,8 +3,22 @@ const treatmentsData = [
   {
     id: "braces-aligners",
     name: "Braces & Aligners",
-    description: "Straighten your teeth with modern braces and invisible aligners.",
-    image: "https://images.unsplash.com/photo-1606813902915-7c98d3aa2f92", // HD dental braces
+    description: "Experience the power of dental braces, aligning and transforming teeth with precision. Notice significant improvements with jaw correction, confident smiles, and easier chewing",
+    image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e", // HD dental braces
+    subTreatments: [
+    {
+      title: "WHAT ARE CLEAR ALIGNERS??",
+      description:
+        "Braces are more than just a beauty boost. They address various issues—open bite, jaw structure, and overcrowding—ensuring proper oral health. Straightened teeth mean improved hygiene, efficient chewing, and reduced periodontal problems. Clear aligners, a popular option, are virtually invisible and perfect for adults seeking discreet orthodontic treatment. No food restrictions, no speech difficulties—just comfort and hygiene, offering confident smiles for all.",
+      image: "https://www.finefeather.in/wp-content/uploads/2022/11/02-8-600x410.jpg",
+    },
+    {
+      title: "Wearing Aligners",
+      description:
+        "When you wear clear aligners, you can smile without it being obvious that you are undergoing orthodontic treatment. What will be obvious is that your smile is looking better. Since the aligners are clear, you can see the position of your teeth. This is a huge benefit because as your teeth become straighter, your appearance will improve, rather than you waiting until the very end to benefit from the changes.",
+      image: "https://www.finefeather.in/wp-content/uploads/2022/11/05-2.jpg",
+    },
+  ],
   },
   {
     id: "painless-root-canal",

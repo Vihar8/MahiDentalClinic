@@ -6,6 +6,8 @@ import GuestGuard from "../utils/GuestGuard";
 import ForgotPassword from "../pages/ForgotPassword";
 import ContactsUs from "../components/AboutPages/ContactsUs";
 import AppointmentPage from "../pages/AppointmentPage";
+import Gallery from "../pages/Gallery";
+import AboutUs from "../components/AboutPages/AboutUs";
 const Landing = Loadable(lazy(() => import("../pages/Landing")));
 const Login = Loadable(lazy(() => import("../pages/Login")));
 const Project = Loadable(lazy(() => import("../pages/Project")));
@@ -56,9 +58,17 @@ const PublicRoutes = {
       path: "/appointmentpage",
       element: <AppointmentPage />,
     },
+     {
+      path: "/gallerypage",
+      element: <Gallery />,
+    },
     {
       path: "/contactus",
       element: <ContactsUs />,
+    },
+    {
+      path: "/aboutus",
+      element: <AboutUs />,
     },
     {
       path: "/project",
