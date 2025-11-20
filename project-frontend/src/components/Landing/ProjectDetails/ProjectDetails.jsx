@@ -149,14 +149,14 @@ const FAQSection = () => {
           <div className="flex-1 flex justify-center gap-6 ">
             <div className="w-32 h-32 md:w-44 md:h-44 rounded-xl overflow-hidden">
               <img
-                src="/images/cleaner-smiling-left.jpg"
+                src="https://www.finefeather.in/wp-content/uploads/2023/07/patient.webp"
                 alt="Cleaner left"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="w-32 h-32 md:w-44 md:h-44 rounded-xl overflow-hidden">
               <img
-                src="/images/cleaner-smiling-right.jpg"
+                src="https://www.finefeather.in/wp-content/uploads/2022/11/Screening-Test.jpg"
                 alt="Cleaner right"
                 className="w-full h-full object-cover"
               />

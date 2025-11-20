@@ -24,7 +24,7 @@ export default function DigitalSolar() {
           </h2>
 
           <p className="mt-4 text-gray-600">
-            FineFeather Dental is a chain of family dental clinics with over...
+            At Mahi Dental Clinic, we care for every generation—kids, parents, and grandparents—so your whole family can enjoy confident, bright, and pain-free smiles. From gentle checkups to advanced dental care, we make every visit comfortable, caring, and trustworthy. Because a happy family starts with healthy smiles!
           </p>
 
           <div className="grid grid-cols-3 mt-6 gap-4 text-center">
