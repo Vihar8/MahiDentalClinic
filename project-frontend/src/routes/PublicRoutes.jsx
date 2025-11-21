@@ -66,10 +66,10 @@ const PublicRoutes = {
       path: "/aboutus",
       element: <AboutUs />,
     },
-    {
-      path: "/project",
-      element: <Project />,
-    },
+    // {
+    //   path: "/project",
+    //   element: <Project />,
+    // },
     {
       path: "/our-services/:id",
       element: <TreatmentPage />,
@@ -90,10 +90,10 @@ const PublicRoutes = {
       path: "/add-discom",
       element: <AddDiscom />,
     },
-    {
-      path: "/project-summary",
-      element: <ProjectSummary />,
-    },
+    // {
+    //   path: "/project-summary",
+    //   element: <ProjectSummary />,
+    // },
     {
       path: "/project-capacity",
       element: <ProjectCapacity />,

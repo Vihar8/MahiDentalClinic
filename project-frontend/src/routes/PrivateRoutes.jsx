@@ -45,10 +45,10 @@ const PrivateRoutes = {
     //     )
     // },
 
-    {
-      path: "solar-project",
-      element: <Project />,
-    },
+    // {
+    //   path: "solar-project",
+    //   element: <Project />,
+    // },
     {
       path: "paybill",
       element: <Paybill />,
