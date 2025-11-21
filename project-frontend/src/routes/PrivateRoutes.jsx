@@ -10,7 +10,6 @@ const PageNotfound = Loadable(
 );
 const Dashboard = Loadable(lazy(() => import("../pages/Dashboard")));
 const Profile = Loadable(lazy(() => import("../pages/Profile")));
-const Project = Loadable(lazy(() => import("../pages/Project")));
 const Paybill = Loadable(lazy(() => import("../pages/Paybill")));
 const Wallet = Loadable(lazy(() => import("../pages/Wallet")));
 const Plant = Loadable(lazy(() => import("../pages/plant")));
