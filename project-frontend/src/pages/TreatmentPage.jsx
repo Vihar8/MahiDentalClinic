@@ -1,8 +1,9 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import treatmentsData from "./treatmentsData";
 
 const TreatmentPage = () => {
+  const navigate = useNavigate();
   const { id } = useParams();
   const treatment = treatmentsData.find((t) => t.id === id);
 
@@ -20,7 +21,7 @@ const TreatmentPage = () => {
         <div className="absolute inset-0 flex flex-col justify-center items-start px-10 md:px-20 text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">{treatment.name}</h1>
           <p className="max-w-2xl text-lg">{treatment.description}</p>
-          <button className="mt-6 px-6 py-3 rounded-full bg-white text-blue-900 hover:bg-blue-900 hover:text-white font-semibold transition-colors duration-300 ease-in-out">
+          <button onClick={() => navigate("/appointmentpage")} className="mt-6 px-6 py-3 rounded-full bg-white text-blue-900 hover:bg-blue-900 hover:text-white font-semibold transition-colors duration-300 ease-in-out">
             Book an Appointment
           </button>
         </div>
@@ -51,7 +52,7 @@ const TreatmentPage = () => {
                   {sub.title}
                 </h2>
                 <p className="text-black leading-relaxed">{sub.description}</p>
-                <button className="mt-6 px-6 py-2 bg-blue-900 text-white rounded-full">
+                <button onClick={() => navigate("/appointmentpage")} className="mt-6 px-6 py-2 bg-blue-900 text-white rounded-full">
                   Book an appointment
                 </button>
               </div>

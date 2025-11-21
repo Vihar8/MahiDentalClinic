@@ -68,3 +68,11 @@
 .icon {
   @apply w-full max-w-96 block m-auto; 
 }
+
+.emailText {
+  @apply flex items-center gap-2 mt-5 text-normaltext font-semibold text-black;
+  
+  &:hover {
+    @apply text-amber-900 font-bold;
+  }
+}

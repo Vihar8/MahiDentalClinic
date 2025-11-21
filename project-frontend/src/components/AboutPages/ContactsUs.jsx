@@ -6,7 +6,6 @@ import bgBlueGrid from "/assets/bg-blue-grid1.svg";
 const ContactsUs = () => {
   return (
     <>
-      <h1 className='text-[#88B121] font-bold text-2xl m-5'>Contact Us</h1>
       <div className={`${classes.solarProjects}`}>
         {/* Background Image */}
         <div className={`${classes.heroSection}`}>

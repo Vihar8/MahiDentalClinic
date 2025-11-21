@@ -6,6 +6,7 @@ import { Facebook, Instagram } from "lucide-react";
 const NavigationMenu = () => {
   const navMenu = [
     { id: 1, to: "/contactus", label: "Contact Us" },
+    { id: 1, to: "/aboutus", label: "About Us" },
     { id: 2, to: "/", label: "Terms & Conditions" },
     { id: 3, to: "/", label: "Privacy Policy" },
     // { id: 3, to: "/", label: "Policy Update" },
