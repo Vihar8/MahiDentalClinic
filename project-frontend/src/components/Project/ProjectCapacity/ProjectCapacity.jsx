@@ -14,7 +14,7 @@ import {
 import { useFormik } from "formik";
 import * as yup from "yup";
 import { useNavigate } from "react-router-dom";
-import ProjectSummary from "/assets/project/ProjectSummary.svg";
+// import ProjectSummary from "/assets/project/ProjectSummary.svg";
 import verifiedImg from "/assets/project/bitcoin-icons_verify-filled.svg";
 
 function BookProjectCapacity() {
