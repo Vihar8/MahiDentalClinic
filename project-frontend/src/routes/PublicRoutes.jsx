@@ -10,7 +10,6 @@ import Gallery from "../pages/Gallery";
 import AboutUs from "../components/AboutPages/AboutUs";
 const Landing = Loadable(lazy(() => import("../pages/Landing")));
 const Login = Loadable(lazy(() => import("../pages/Login")));
-const Project = Loadable(lazy(() => import("../pages/Project")));
 const PlantDetails = Loadable(lazy(() => import("../pages/PlantDetails")));
 const SubscriberLogin = Loadable(
   lazy(() => import("../pages/SubscriberLogin"))
