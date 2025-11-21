@@ -21,9 +21,6 @@ const PanVerification = Loadable(
 const AddDiscom = Loadable(
   lazy(() => import("../components/Project/AddDiscom/AddDiscom"))
 );
-const ProjectSummary = Loadable(
-  lazy(() => import("../components/Project/ProjectSummary/ProjectSummary"))
-);
 const ProjectCapacity = Loadable(
   lazy(() => import("../components/Project/ProjectCapacity/ProjectCapacity"))
 );
