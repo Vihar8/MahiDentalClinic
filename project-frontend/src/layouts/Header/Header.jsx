@@ -12,7 +12,7 @@ const Header = () => {
         <Container classname={`${classes.containDivide}`}>
           <Link to="/">
             <img
-              className={`${classes.mainlogos}`}
+              className={`${classes.mainlogos}`} style={{ width: "120px" , height: "auto" }}
               alt="Logo"
               src={mahi_dental_logo}
             />

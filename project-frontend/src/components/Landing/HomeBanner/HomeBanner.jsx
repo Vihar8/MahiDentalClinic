@@ -167,9 +167,9 @@ const BuildingIcon = ({ className }) => (
 
 const HomeBanner = () => {
   const services = [
-    { name: 'Implants & Root Canals', icon: <ToothIcon className="w-6 h-6 text-lime-600" /> },
-    { name: 'Aligners & Braces', icon: <BracesIcon className="w-6 h-6 text-lime-600" /> },
-    { name: 'Crown & Bridges', icon: <CrownIcon className="w-6 h-6 text-lime-600" /> },
+    { name: 'Implants & Root Canals', icon: <ToothIcon className="w-6 h-6 text-[#88B121]" /> },
+    { name: 'Aligners & Braces', icon: <BracesIcon className="w-6 h-6 text-[#88B121]" /> },
+    { name: 'Crown & Bridges', icon: <CrownIcon className="w-6 h-6 text-[#88B121]" /> },
     { name: 'Lasers & Veneers', icon: <LaserIcon className="w-6 h-6 text-[#88B121]" /> },
   ];
 
@@ -227,7 +227,7 @@ const HomeBanner = () => {
               </div>
 
               {/* 20 Years Badge */}
-              <div className="absolute  bottom-4 left-1/2 -translate-x-1/2 lg:left-0 lg:bottom-12 lg:-translate-x-1/4 w-auto">
+              {/* <div className="absolute  bottom-4 left-1/2 -translate-x-1/2 lg:left-0 lg:bottom-12 lg:-translate-x-1/4 w-auto">
                 <div className="bg-white rounded-xl shadow-xl p-3 sm:p-4 flex items-center space-x-3">
                   <div className="flex-shrink-0 bg-lime-500 text-white p-2 sm:p-3 rounded-full">
                     <ToothIcon className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -236,10 +236,10 @@ const HomeBanner = () => {
                     20 Years of Experience
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* 13 Branches Badge */}
-              <div className="absolute  top-1/2 -translate-y-1/2 right-0 lg:-right-4 w-auto">
+              {/* <div className="absolute  top-1/2 -translate-y-1/2 right-0 lg:-right-4 w-auto">
                  <div className="bg-indigo-900 text-white rounded-xl shadow-xl p-3 sm:p-4 flex items-center space-x-3">
                   <div className="flex-shrink-0">
                     <BuildingIcon className="w-7 h-7 sm:w-8 sm:h-8" />
@@ -249,7 +249,7 @@ const HomeBanner = () => {
                     <div className="text-sm sm:text-base whitespace-nowrap">4 Cities</div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
             </div>
           </div>
