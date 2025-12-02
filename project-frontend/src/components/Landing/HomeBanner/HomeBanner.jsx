@@ -1,129 +1,3 @@
-// import React from 'react'
-// import classes from "../../Landing/Landing.module.scss";
-// import { Button, Grid } from '@mui/material';
-// import profileimg from '/assets/adminIcons/profileimg.png';
-
-// const HomeBanner = () => {
-//   return (
-//     <>
-//         <section className="w-full bg-white py-16">
-//       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center px-4">
-        
-//         {/* Left Content */}
-//         <div>
-//           <h1 className="text-6xl font-bold text-gray-800 leading-tight">
-//             Putting Your <br></br><span className="text-[#88B121]">Smile First</span>
-//           </h1>
-
-//           <p className="mt-4 text-gray-600 text-lg">
-//             Trusted by 100000+ Patients
-//           </p>
-
-//           <ul className="mt-4 text-gray-700 space-y-1">
-//             <li>• Implants & Root Canals</li>
-//             <li>• Aligners & Braces</li>
-//             <li>• Crowns & Bridges</li>
-//           </ul>
-
-//           <button className="mt-6 px-6 py-3 bg-[#88B121] text-white rounded-md hover:bg-green-700">
-//             Book An Appointment
-//           </button>
-
-//           <div className="mt-6 flex items-center gap-3">
-//             <div className="p-3 bg-[#88B121] rounded-full">
-//               ⭐
-//             </div>
-//             <p className="font-semibold text-gray-800">
-//               20 Years of Experience
-//             </p>
-//           </div>
-//         </div>
-
-//         Right Doctor Image
-//         <div className="flex justify-center">
-//           <img 
-//             src= {profileimg}
-//             alt="Doctor" 
-//             className="w-[350px] md:w-[420px] object-cover"
-//           />
-//         </div>
-
-//       </div>
-//     </section>
-//     </>
-//   )
-// }
-
-// export default HomeBanner
-
-// import React from 'react'
-// import classes from "../../Landing/Landing.module.scss";
-// import doctorImage from '/assets/adminIcons/profileimg.png';
-// import { Button, Grid } from '@mui/material';
-
-// const HomeBanner = ({doctorImage}) => {
-//   return (
-
-//    <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12 bg-white">
-//       {/* Left Side */}
-//       <div className="max-w-xl text-center md:text-left">
-//         <h1 className="text-6xl md:text-5xl font-bold text-gray-900 leading-tight">
-//           Putting Your <br></br><span className="text-[#88B121]">Smile First</span>
-//         </h1>
-//         <p className="mt-4 text-gray-700 text-lg">
-//           Trusted by <span className="font-bold">150000+ Patients</span>
-//         </p>
-
-//         {/* Services */}
-//         <div className="grid grid-cols-2 gap-y-4 gap-x-6 mt-6 text-gray-800">
-//           <div className="flex items-center space-x-2">
-//             <img src="https://img.icons8.com/ios-filled/24/4CAF50/tooth.png" alt="tooth"/>
-//             <span>Implants & Root Canals</span>
-//           </div>
-//           <div className="flex items-center space-x-2">
-//             <img src="https://img.icons8.com/ios-filled/24/4CAF50/teeth.png" alt="braces"/>
-//             <span>Aligners & Braces</span>
-//           </div>
-//           <div className="flex items-center space-x-2">
-//             <img src="https://img.icons8.com/ios-filled/24/4CAF50/tooth-crown.png" alt="crown"/>
-//             <span>Crown & Bridges</span>
-//           </div>
-//           <div className="flex items-center space-x-2">
-//             <img src="https://img.icons8.com/ios-filled/24/4CAF50/laser-beam.png" alt="laser"/>
-//             <span>Lasers & Veneers</span>
-//           </div>
-//         </div>
-
-//         {/* Appointment Button */}
-//         <button className="mt-8 px-8 py-3 bg-[#88B121] text-white font-bold rounded-lg hover:bg-green-700 transition">
-//           BOOK AN APPOINTMENT
-//         </button>
-//       </div>
-
-//       {/* Right Side Image */}
-//       <div className="relative mt-12 md:mt-0">
-//         <img
-//           src={doctorImage}
-//           alt="Doctor"
-//           className="w-80 h-80 object-cover rounded-full shadow-lg"
-//         />
-
-//         {/* Experience Badge */}
-//         <div className="absolute -bottom-6 left-6 bg-white border-2 border-green-600 text-green-700 font-semibold px-5 py-3 rounded-xl shadow-lg">
-//           20 Years of Experience
-//         </div>
-
-//         {/* Branches Badge */}
-//         <div className="absolute top-6 -right-12 bg-indigo-900 text-white font-semibold px-6 py-4 rounded-xl shadow-lg text-sm">
-//           13 Branches <br /> 4 Cities
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default HomeBanner;
-
 import React from 'react';
 import classes from "../../Landing/Landing.module.scss";
 import { Button, Grid } from '@mui/material';
@@ -167,9 +41,9 @@ const BuildingIcon = ({ className }) => (
 
 const HomeBanner = () => {
   const services = [
-    { name: 'Implants & Root Canals', icon: <ToothIcon className="w-6 h-6 text-lime-600" /> },
-    { name: 'Aligners & Braces', icon: <BracesIcon className="w-6 h-6 text-lime-600" /> },
-    { name: 'Crown & Bridges', icon: <CrownIcon className="w-6 h-6 text-lime-600" /> },
+    { name: 'Implants & Root Canals', icon: <ToothIcon className="w-6 h-6 text-[#88B121]" /> },
+    { name: 'Aligners & Braces', icon: <BracesIcon className="w-6 h-6 text-[#88B121]" /> },
+    { name: 'Crown & Bridges', icon: <CrownIcon className="w-6 h-6 text-[#88B121]" /> },
     { name: 'Lasers & Veneers', icon: <LaserIcon className="w-6 h-6 text-[#88B121]" /> },
   ];
 
@@ -179,7 +53,7 @@ const HomeBanner = () => {
         <div className="flex flex-col lg:flex-row items-center">
           
           {/* --- Left Column: Text Content --- */}
-          <div className="lg:w-1/2 w-full text-center lg:text-left flex flex-col items-center lg:items-start">
+            <div className="lg:w-1/3 w-full text-center lg:text-left flex flex-col items-center lg:items-start mx-auto">
             <h1 className="text-6xl sm:text-5xl md:text-6xl font-bold text-slate-800 leading-tight">
               Putting Your
               <span className=" block text-[#88B121]">Smile First</span>
@@ -227,7 +101,7 @@ const HomeBanner = () => {
               </div>
 
               {/* 20 Years Badge */}
-              <div className="absolute  bottom-4 left-1/2 -translate-x-1/2 lg:left-0 lg:bottom-12 lg:-translate-x-1/4 w-auto">
+              {/* <div className="absolute  bottom-4 left-1/2 -translate-x-1/2 lg:left-0 lg:bottom-12 lg:-translate-x-1/4 w-auto">
                 <div className="bg-white rounded-xl shadow-xl p-3 sm:p-4 flex items-center space-x-3">
                   <div className="flex-shrink-0 bg-lime-500 text-white p-2 sm:p-3 rounded-full">
                     <ToothIcon className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -236,10 +110,10 @@ const HomeBanner = () => {
                     20 Years of Experience
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* 13 Branches Badge */}
-              <div className="absolute  top-1/2 -translate-y-1/2 right-0 lg:-right-4 w-auto">
+              {/* <div className="absolute  top-1/2 -translate-y-1/2 right-0 lg:-right-4 w-auto">
                  <div className="bg-indigo-900 text-white rounded-xl shadow-xl p-3 sm:p-4 flex items-center space-x-3">
                   <div className="flex-shrink-0">
                     <BuildingIcon className="w-7 h-7 sm:w-8 sm:h-8" />
@@ -249,7 +123,7 @@ const HomeBanner = () => {
                     <div className="text-sm sm:text-base whitespace-nowrap">4 Cities</div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
             </div>
           </div>
