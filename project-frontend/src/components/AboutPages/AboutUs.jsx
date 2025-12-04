@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const AboutUs = () => {
   return (
     <>
-          <main className="container mx-auto px-4 py-12">
+          <main className="container mx-auto px-8 py-12">
         {/* About Us Section */}
         <section className="flex flex-col md:flex-row items-center md:space-x-8 space-y-8 md:space-y-0">
           {/* Heading Section */}

@@ -74,7 +74,7 @@ const HomeBanner = () => {
             </div>
 
             <a
-              href="#"
+              href="/appointmentpage"
               className="mt-10 inline-block bg-[#88B121] text-white font-bold text-sm uppercase tracking-wider py-4 px-8 rounded-full shadow-lg hover:bg-lime-600 transition-colors duration-300"
             >
               Book An Appointment

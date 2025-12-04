@@ -125,7 +125,7 @@ const allServices = [
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="text-gray-600 text-sm mb-2 tracking-wide">Our Services</p>
+          <p className="text-gray-600 font-semibold mb-2 tracking-wide">Our Services</p>
           <h1 className="text-2xl md:text-5xl font-bold" style={{ color: '#88b121' }}>
             OUR DENTAL SERVICES
           </h1>
