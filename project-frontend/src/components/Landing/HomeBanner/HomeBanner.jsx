@@ -56,7 +56,7 @@ const HomeBanner = () => {
             <div className="lg:w-1/3 w-full text-center lg:text-left flex flex-col items-center lg:items-start mx-auto">
             <h1 className="text-6xl sm:text-5xl md:text-6xl font-bold text-slate-800 leading-tight">
               Putting Your
-              <span className=" block text-[#88B121]">Smile First</span>
+              <span className=" block text-[#88B121]"><strong>Smile First</strong></span>
             </h1>
             <p className="mt-4 text-gray-600 text-lg">
               Trusted by <span className="font-bold text-gray-800">150000+ Patients</span>
