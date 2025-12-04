@@ -104,7 +104,7 @@ const TopMenu = () => {
                   <li>
                     <Link to="/our-services/painless-root-canal">
                       <MinusOutlined className="dashIcons" />
-                      PAINLESS ROOT CANAL
+                      PAINLESS ROOT CANAL (SINGLE SITTING)
                     </Link>
                   </li>
                   <li>

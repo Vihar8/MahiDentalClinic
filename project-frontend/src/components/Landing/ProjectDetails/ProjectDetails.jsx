@@ -15,29 +15,29 @@ import React, { useState } from "react";
 
 const faqs = [
   {
-    question: "Do I need to be home during the cleaning?",
+    question: "Are dental treatments painful?",
     answer:
-      "No, as long as we have access, you can carry on with your day.",
+      "Most procedures are painless due to advanced anesthesia and modern techniques. Mild post-treatment discomfort is normal and temporary.",
   },
   {
-    question: "Are your cleaning products safe for pets and kids?",
+    question: "What if I’m scared of dental treatment?",
     answer:
-      "Yes. We use eco-friendly, non-toxic products that are safe for children and animals.",
+      "We offer pain-free techniques, gentle care, and sedation options to help anxious patients relax.",
   },
   {
-    question: "What happens if I’m not satisfied with the cleaning?",
+    question: "How long does teeth whitening last?",
     answer:
-      "We offer a satisfaction guarantee—just reach out within the specified window and we’ll make it right.",
+      "Results vary. With good oral hygiene, results last 6–18 months. Avoid smoking and staining foods for best results.",
   },
   {
-    question: "Can I schedule recurring services?",
+    question: "Are veneers permanent?",
     answer:
-      "Absolutely. You can set up weekly, biweekly, or monthly recurring cleanings based on your needs.",
+      "Veneers are long-lasting solutions (10–15 years). They may need replacement over time due to wear or damage.",
   },
   {
-    question: "Is there a cancellation fee?",
+    question: "How long do braces or aligners take?",
     answer:
-      "Cancellations made within the allowed window are free; late cancellations may incur a small fee.",
+      "Typical treatment lasts 12–24 months, depending on case complexity and patient compliance.",
   },
 ];
 
@@ -47,7 +47,7 @@ const FAQSection = () => {
   return (
     <section className="bg-[#88B121] py-16 px-6 md:px-20">
       <div className="max-w-4xl mx-auto flex flex-col items-center gap-4">
-        <div className="inline-block bg-[#e6f1fb] text-[#2563EB] text-xs font-semibold px-4 py-1 rounded-full mb-1 shadow">
+        <div className="inline-block bg-[#e6f1fb] text-[#88b121] text-xs font-bold px-4 py-2 rounded-full mb-1 shadow">
           FAQ
         </div>
         <h2 className="text-3xl text-[#833100] font-bold text-center">
@@ -141,9 +141,12 @@ const FAQSection = () => {
               Book today and discover why families trust Maahi Dental Clinic for spotless teeth.
             </p>
             <div className="mt-6">
-              <button className="bg-[#88B121] text-[#ffff] font-semibold px-6 py-3 rounded-full shadow hover:brightness-105 transition">
-                Book Your First Cleaning
-              </button>
+               <a
+              href="/appointmentpage"
+              className="mt-10 inline-block bg-[#88B121] text-white font-bold text-sm uppercase tracking-wider py-4 px-8 rounded-full shadow-lg hover:bg-lime-600 transition-colors duration-300"
+            >
+              Book An Appointment
+            </a>
             </div>
           </div>
           <div className="flex-1 flex justify-center gap-6 ">
