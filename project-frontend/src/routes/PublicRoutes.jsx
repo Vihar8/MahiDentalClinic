@@ -10,7 +10,6 @@ import Gallery from "../pages/Gallery";
 import AboutUs from "../components/AboutPages/AboutUs";
 const Landing = Loadable(lazy(() => import("../pages/Landing")));
 const Login = Loadable(lazy(() => import("../pages/Login")));
-const Project = Loadable(lazy(() => import("../pages/Project")));
 const PlantDetails = Loadable(lazy(() => import("../pages/PlantDetails")));
 const SubscriberLogin = Loadable(
   lazy(() => import("../pages/SubscriberLogin"))
@@ -20,9 +19,6 @@ const PanVerification = Loadable(
 );
 const AddDiscom = Loadable(
   lazy(() => import("../components/Project/AddDiscom/AddDiscom"))
-);
-const ProjectSummary = Loadable(
-  lazy(() => import("../components/Project/ProjectSummary/ProjectSummary"))
 );
 const ProjectCapacity = Loadable(
   lazy(() => import("../components/Project/ProjectCapacity/ProjectCapacity"))
@@ -70,10 +66,10 @@ const PublicRoutes = {
       path: "/aboutus",
       element: <AboutUs />,
     },
-    {
-      path: "/project",
-      element: <Project />,
-    },
+    // {
+    //   path: "/project",
+    //   element: <Project />,
+    // },
     {
       path: "/our-services/:id",
       element: <TreatmentPage />,
@@ -94,10 +90,10 @@ const PublicRoutes = {
       path: "/add-discom",
       element: <AddDiscom />,
     },
-    {
-      path: "/project-summary",
-      element: <ProjectSummary />,
-    },
+    // {
+    //   path: "/project-summary",
+    //   element: <ProjectSummary />,
+    // },
     {
       path: "/project-capacity",
       element: <ProjectCapacity />,
