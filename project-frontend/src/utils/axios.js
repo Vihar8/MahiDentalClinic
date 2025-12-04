@@ -2,11 +2,11 @@ import axios from "axios";
 import { commonLoader } from "./commonEnum";
 
 const axiosServices = axios.create({
-  baseURL: import.meta.env.VITE_APP_API_URL || "localhost:4000/api/",
+  baseURL: import.meta.env.VITE_APP_API_URL || "localhost:5000/api/",
 });
 
 const axiosFet = axios.create({
-  baseURL: import.meta.env.VITE_API || "localhost:4000/api/",
+  baseURL: import.meta.env.VITE_API || "localhost:5000/api/",
 });
 
 // ==============================|| AXIOS - FOR MOCK SERVICES ||============================== //

@@ -8,6 +8,7 @@ import Captcha from "../../src/commoncomponents/Captcha/Captcha";
 import { Button } from '@mui/material';
 import InputBox from '../../src/commoncomponents/InputBox/InputBox';
 import { Link } from 'react-router-dom';
+import { patientinquiry } from "../api/common"; // adjust path as per your project
 
 
 const AppointmentPage = () => {
@@ -37,8 +38,8 @@ const AppointmentPage = () => {
       zip: '',
     },
     validationSchema: validationSchema,
-    onSubmit: (values) => {
-      submit(values);
+    onSubmit: async (values) => {
+         const res = await patientinquiry(values);   
     },
   });
 
@@ -105,7 +106,7 @@ const AppointmentPage = () => {
             </Grid>
 
             <Grid item xs={12} md={6}>
-              <form className="space-y-4">
+              <form className="space-y-4" onSubmit={formik.handleSubmit}>
                 <Grid container spacing={2}>
                   <Grid item xs={12} md={6}>
                     <InputBox
@@ -208,7 +209,6 @@ const AppointmentPage = () => {
                     size="medium"
                     className="btnCapital submitButton"
                     type="submit"
-                    value="vendor"
                   >
                     Submit Info
                   </Button>
