@@ -48,7 +48,7 @@ const submitPatientInquiry = async (req, res) => {
     await transporter.sendMail(clinicMailOptions);
     await transporter.sendMail(patientMailOptions);
 
-    return res.status(200).json({ message: "Inquiry submitted successfully." });
+    return res.status(200).json({ message: "Inquiry submitted successfully.", statusCode: "200" });
   } catch (error) {
     console.error("Error sending inquiry email:", error);
     return res.status(500).json({ message: "Something went wrong. Please try again later." });

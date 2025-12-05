@@ -4,6 +4,6 @@ const { submitPatientInquiry } = require("../controllers/contactController");
 const router = express.Router();
 
 // POST /api/patient-inquiry
-router.post("/patient-inquiry", submitPatientInquiry);
+router.post("/common/patient-inquiry", submitPatientInquiry);
 
 module.exports = router;

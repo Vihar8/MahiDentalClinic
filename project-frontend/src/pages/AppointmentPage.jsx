@@ -9,6 +9,7 @@ import { Button } from '@mui/material';
 import InputBox from '../../src/commoncomponents/InputBox/InputBox';
 import { Link } from 'react-router-dom';
 import { patientinquiry } from "../api/common"; // adjust path as per your project
+import { StatusCode } from '../utils/commonEnum';
 
 
 const AppointmentPage = () => {
@@ -39,7 +40,12 @@ const AppointmentPage = () => {
     },
     validationSchema: validationSchema,
     onSubmit: async (values) => {
-         const res = await patientinquiry(values);   
+      debugger
+         const res = await patientinquiry(values); 
+         if(res.statusCode == StatusCode.success){
+          console.log("successfull")
+          formik.resetForm();
+         }  
     },
   });
 
@@ -146,7 +152,6 @@ const AppointmentPage = () => {
                       value={formik.values.email}
                       onChange={(e) => {
                         formik.handleChange(e);
-                        eraseField(); // your custom logic
                       }}
                       onBlur={formik.handleBlur}
                       error={formik.touched.email && Boolean(formik.errors.email)}
