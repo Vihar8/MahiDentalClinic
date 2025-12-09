@@ -1,22 +1,13 @@
 import React from "react";
 import classes from "../../Landing/Landing.module.scss";
-
-// function DigitalSolar() {
-//   return (
-//     <>
-//     <p>section 3</p>
-//     </>
-//   );
-// }
-
-// export default DigitalSolar;
+import profileimg from '/assets/homebanner_family.png';
 
 export default function DigitalSolar() {
   return (
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center px-4">
 
-        <img src="https://www.finefeather.in/wp-content/uploads/2023/07/about-family-image.webp" className="rounded-lg shadow-lg" />
+        <img src={profileimg} className="rounded-lg shadow-lg" />
 
         <div>
           <h2 className="text-4xl font-bold text-gray-800">

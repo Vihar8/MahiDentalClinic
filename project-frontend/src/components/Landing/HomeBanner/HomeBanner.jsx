@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from "../../Landing/Landing.module.scss";
 import { Button, Grid } from '@mui/material';
-import profileimg from '/assets/adminIcons/profileimg.png';
+import profileimg from '/assets/Homebanner_doctor.png';
 
 // --- SVG Icon Components ---
 // Using inline SVGs to keep everything in one file.
@@ -93,9 +93,10 @@ const HomeBanner = () => {
               {/* Dentist Image */}
               <div className="relative ">
                 <img 
-                  src="https://www.finefeather.in/wp-content/uploads/2024/06/104_2-1-copyright-e1719406164288.png"
+                  // src="https://www.finefeather.in/wp-content/uploads/2024/06/104_2-1-copyright-e1719406164288.png"
+                  src={profileimg}
                   alt="Smiling dentist holding dental tools" 
-                  className="w-auto h-auto object-cover"
+                  className="w-auto h-auto object-cover rounded-full"
                   onError={(e) => { e.target.src = 'https://placehold.co/600x700/E0E0E0/777777?text=Image+Not+Found'; }}
                 />
               </div>
