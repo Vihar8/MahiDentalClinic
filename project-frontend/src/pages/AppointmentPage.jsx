@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import classes from "../../src/components/AboutPages/AboutPages.module.scss";
-import bgBlueGrid from "/assets/bg-blue-grid1.svg";
+import bgBlueGrid from "/assets/baap.webp";
 import Captcha from "../../src/commoncomponents/Captcha/Captcha";
 import { Button } from '@mui/material';
 import InputBox from '../../src/commoncomponents/InputBox/InputBox';
