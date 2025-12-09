@@ -1,5 +1,5 @@
 const express = require("express");
-const { submitPatientInquiry } = require("../controllers/contactController");
+const { submitPatientInquiry } = require("../controllers/contactController.js");
 
 const router = express.Router();
 
