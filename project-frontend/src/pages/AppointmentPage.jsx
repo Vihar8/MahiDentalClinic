@@ -3,16 +3,20 @@ import Grid from "@mui/material/Grid";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import classes from "../../src/components/AboutPages/AboutPages.module.scss";
-import bgBlueGrid from "/assets/bg-blue-grid1.svg";
+import bgBlueGrid from "/assets/baap.webp";
 import Captcha from "../../src/commoncomponents/Captcha/Captcha";
 import { Button } from '@mui/material';
 import InputBox from '../../src/commoncomponents/InputBox/InputBox';
 import { Link } from 'react-router-dom';
 import { patientinquiry } from "../api/common"; // adjust path as per your project
 import { StatusCode } from '../utils/commonEnum';
+import { useSnackbar } from "../utils/SnackbarProvider";
 
 
 const AppointmentPage = () => {
+  const [loading, setLoading] = useState(false);
+  const { showSnackbar } = useSnackbar();
+
 
   const validationSchema = yup.object({
     name: yup.string().required('Name is Required'),
@@ -40,12 +44,15 @@ const AppointmentPage = () => {
     },
     validationSchema: validationSchema,
     onSubmit: async (values) => {
-      debugger
+      setLoading(true);
          const res = await patientinquiry(values); 
          if(res.statusCode == StatusCode.success){
-          console.log("successfull")
+           showSnackbar("Info Sent Successfully", "success");
           formik.resetForm();
-         }  
+          setLoading(false);
+         }  else {
+          showSnackbar("Error Occured", "error");
+         }
     },
   });
 
@@ -135,11 +142,31 @@ const AppointmentPage = () => {
                       type="tel"
                       name="phone"
                       value={formik.values.phone}
-                      onChange={formik.handleChange}
+                      // onChange={formik.handleChange}
+                       onChange={(e) => {
+                        const value = e.target.value;
+                        // Limit input to 10 characters
+                        if (value.length <= 10) {
+                          formik.handleChange(e);
+                        }
+                      }}
                       onBlur={formik.handleBlur}
                       error={formik.touched.phone && Boolean(formik.errors.phone)}
                       helperText={formik.touched.phone && formik.errors.phone}
                       InputLabelProps={{ shrink: true }}
+                      onKeyDown={(event) => {
+                        const regex = /^-?[0-9]*(\.[0-9]*)?$/;
+                        if (
+                          !regex.test(event.key) &&
+                          event.key !== "Backspace" &&
+                          !(event.ctrlKey || event.metaKey) &&
+                          event.key !== "ArrowLeft" &&
+                          event.key !== "ArrowRight" &&
+                          event.key !== "Tab"
+                        ) {
+                          event.preventDefault();
+                        }
+                      }}
                     />
                   </Grid>
 
@@ -197,7 +224,14 @@ const AppointmentPage = () => {
                       type="zip"
                       name="zip"
                       value={formik.values.zip}
-                      onChange={formik.handleChange}
+                      // onChange={formik.handleChange}
+                       onChange={(e) => {
+                        const value = e.target.value;
+                        // Limit input to 10 characters
+                        if (value.length <= 6) {
+                          formik.handleChange(e);
+                        }
+                      }}
                       onBlur={formik.handleBlur}
                       error={formik.touched.zip && Boolean(formik.errors.zip)}
                       helperText={formik.touched.zip && formik.errors.zip}
@@ -214,8 +248,9 @@ const AppointmentPage = () => {
                     size="medium"
                     className="btnCapital submitButton"
                     type="submit"
+                    disabled={loading}
                   >
-                    Submit Info
+                     {loading ? <div>Submitting ...</div> : "Submit Info"}
                   </Button>
                 </Grid>
               </form>

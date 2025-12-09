@@ -19,9 +19,9 @@ export default function DigitalSolar() {
           </p>
 
           <div className="grid grid-cols-3 mt-6 gap-4 text-center">
-            <div><h3 className="text-2xl font-bold">5128</h3><p>Implants</p></div>
-            <div><h3 className="text-2xl font-bold">6314</h3><p>Invisible Braces</p></div>
-            <div><h3 className="text-2xl font-bold">1465</h3><p>Dental Veneers</p></div>
+            <div><h3 className="text-2xl text-[#88B121] font-bold">518</h3><p className="text-xl font-bold">Implants</p></div>
+            <div><h3 className="text-2xl text-[#88B121] font-bold">314</h3><p className="text-xl font-bold">Invisible Braces</p></div>
+            <div><h3 className="text-2xl text-[#88B121] font-bold">465</h3><p className="text-xl font-bold">Dental Veneers</p></div>
           </div>
         </div>
 
