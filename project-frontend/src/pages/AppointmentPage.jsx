@@ -13,6 +13,7 @@ import { StatusCode } from '../utils/commonEnum';
 
 
 const AppointmentPage = () => {
+  const [loading, setLoading] = useState(false)
 
   const validationSchema = yup.object({
     name: yup.string().required('Name is Required'),
@@ -40,11 +41,12 @@ const AppointmentPage = () => {
     },
     validationSchema: validationSchema,
     onSubmit: async (values) => {
-      debugger
+      setLoading(true);
          const res = await patientinquiry(values); 
          if(res.statusCode == StatusCode.success){
           console.log("successfull")
           formik.resetForm();
+          setLoading(false);
          }  
     },
   });
@@ -214,8 +216,9 @@ const AppointmentPage = () => {
                     size="medium"
                     className="btnCapital submitButton"
                     type="submit"
+                    disabled={loading}
                   >
-                    Submit Info
+                     {loading ? <div>Submitting ...</div> : "Submit Info"}
                   </Button>
                 </Grid>
               </form>
