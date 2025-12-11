@@ -95,12 +95,12 @@ const ReviewCarousel = () => {
     <div className="flex justify-center items-center w-full py-8 mb-6 bg-white">
       <div className="relative w-full max-w-7xl flex items-center justify-center">
         {/* Left Arrow */}
-        <button
+        {/* <button
           onClick={prevSlide}
           className="absolute -left-3 bg-white border rounded-full shadow-lg p-2 hover:bg-gray-100 transition-all duration-300 z-1"
         >
           <FaChevronLeft size={20} className="text-gray-700" />
-        </button>
+        </button> */}
 
         {/* Cards Wrapper */}
         <div
@@ -154,12 +154,12 @@ const ReviewCarousel = () => {
         </div>
 
         {/* Right Arrow */}
-        <button
+        {/* <button
           onClick={nextSlide}
           className="absolute -right-3 bg-white border rounded-full shadow-lg p-2 hover:bg-gray-100 transition-all duration-300 z-1"
         >
           <FaChevronRight size={20} className="text-gray-700" />
-        </button>
+        </button> */}
       </div>
     </div>
     </>
