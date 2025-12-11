@@ -4,6 +4,7 @@ import SmartSolar from "../components/Landing/SmartSolar/SmartSolar";
 import DigitalSolar from "../components/Landing/DigitalSolar/DigitalSolar";
 import ProjectDetails from "../components/Landing/ProjectDetails/ProjectDetails";
 import ServiceCard from "../components/Landing/ServiceCard/ServiceCard";
+import TestimonialCard from "../components/Landing/ServiceCard/TestimonialCard.jsx";
 // import Card from "../components/Landing/MiddleCard/Card";
 
 const Landing = () => {
@@ -15,6 +16,7 @@ const Landing = () => {
       <DigitalSolar />
       <ProjectDetails />
       <ServiceCard />
+      <TestimonialCard />
     </>
   );
 };
