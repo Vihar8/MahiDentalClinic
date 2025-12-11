@@ -67,7 +67,7 @@ const AppointmentPage = () => {
             className={`${classes.bgImage}`}
           />
           <div className={`${classes.textContainer}`}>
-            <h2 className={`${classes.heading}`}>
+            <h2 className={`${classes.headinga}`}>
               Book an Appointment
             </h2>
           </div>
@@ -81,8 +81,8 @@ const AppointmentPage = () => {
               <p className="font-normal text-lg text-[#000000]">
                 Mahi Dental provides world-class treatment using advanced instruments, delivered by a skilled and experienced team, with many satisfied patients.
               </p>
-              <p className='mt-8'>
-                <span className='text-[#88b121]'>Sector 7</span>, Block C, Gandhinagar, Gandhinagar Sector 7-382007
+              <p className='mt-8 font-bold'>
+                <span className='text-amber-900'>Sector 7</span>, Block C, Gandhinagar, Gandhinagar Sector 7-382007
               </p>
               <p className={`${classes.emailText} contactWrapper`}>
                 <span className="icon">

@@ -16,7 +16,7 @@ const ContactsUs = () => {
             className={`${classes.bgImage}`}
           />
           <div className={`${classes.textContainer}`}>
-            <h2 className={`${classes.heading}`}>
+            <h2 className={`${classes.headinga}`}>
               Get in Touch with Mahi Dental Clinic
             </h2>
             <p className={`${classes.description}`}>
@@ -27,21 +27,20 @@ const ContactsUs = () => {
         <div className='m-5'>
           <Grid container spacing={4}>
             <Grid item xs={12} md={6}>
-              <h3 className="text-3xl font-normal text-[#88b121] mb-4">
+             <h3 className="text-3xl font-normal text-[#88b121] mb-4">
                 Ready to talk? Get in touch.
               </h3>
               <p className="font-normal text-lg text-[#000000]">
                 Whether you're a future customer, we want to hear from you.
               </p>
-            </Grid>           
-          </Grid>
-          <Grid container spacing={4}>
-            <Grid item xs={12} md={6}>
               <p className="font-normal text-lg text-[#000000]">
                 Mahi Dental provides world-class treatment using advanced instruments, delivered by a skilled and experienced team, with many satisfied patients.
               </p>
-              <p className='mt-8'>
+              {/* <p className='mt-8'>
                 <span className='text-[#88b121]'>Sector 7</span>, Block C, Gandhinagar, Gandhinagar Sector 7-382007
+              </p> */}
+                            <p className='mt-8 font-bold'>
+                <span className='text-amber-900'>Sector 7</span>, Block C, Gandhinagar, Gandhinagar Sector 7-382007
               </p>
               <p className={`${classes.emailText} contactWrapper`}>
                 <span className="icon">
