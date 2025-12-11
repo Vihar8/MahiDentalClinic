@@ -97,7 +97,7 @@ const ReviewCarousel = () => {
         {/* Left Arrow */}
         <button
           onClick={prevSlide}
-          className="absolute -left-3 bg-white border rounded-full shadow-lg p-2 hover:bg-gray-100 transition-all duration-300 z-10"
+          className="absolute -left-3 bg-white border rounded-full shadow-lg p-2 hover:bg-gray-100 transition-all duration-300 z-1"
         >
           <FaChevronLeft size={20} className="text-gray-700" />
         </button>
@@ -156,7 +156,7 @@ const ReviewCarousel = () => {
         {/* Right Arrow */}
         <button
           onClick={nextSlide}
-          className="absolute -right-3 bg-white border rounded-full shadow-lg p-2 hover:bg-gray-100 transition-all duration-300 z-10"
+          className="absolute -right-3 bg-white border rounded-full shadow-lg p-2 hover:bg-gray-100 transition-all duration-300 z-1"
         >
           <FaChevronRight size={20} className="text-gray-700" />
         </button>
