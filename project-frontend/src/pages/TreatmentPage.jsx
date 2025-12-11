@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import treatmentsData from "./treatmentsData";
+import ServiceCard from "../components/Landing/ServiceCard/ServiceCard";
 
 const TreatmentPage = () => {
   const navigate = useNavigate();
@@ -59,6 +60,7 @@ const TreatmentPage = () => {
             </div>
           ))}
       </div>
+      <ServiceCard />
     </div>
   );
 };

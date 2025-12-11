@@ -28,7 +28,7 @@ const allServices = [
     {
       id: 5,
       title: 'Crowns & Bridges',
-      image: 'https://images.unsplash.com/photo-1609840114035-3c981407e3ad?w=400&h=300&fit=crop'
+      image: 'https://tse4.mm.bing.net/th/id/OIP.bIhq2aWdleud7_JXvy5pRAHaEl?pid=Api&P=0&h=180'
     },
     {
       id: 6,
@@ -63,7 +63,7 @@ const allServices = [
     {
       id: 12,
       title: 'Gum disease Treatment',
-      image: 'https://images.unsplash.com/photo-1609840114035-3c981407e3ad?w=400&h=300&fit=crop'
+      image: 'https://tse1.mm.bing.net/th/id/OIP.9IAWIHqPSctjL7IJw2yB5wHaE8?pid=Api&P=0&h=180'
     },
     {
       id: 13,
@@ -98,7 +98,7 @@ const allServices = [
     {
       id: 19,
       title: 'Orthognathic Surgery',
-      image: 'https://images.unsplash.com/photo-1609840114035-3c981407e3ad?w=400&h=300&fit=crop'
+      image: 'https://www.finefeather.in/wp-content/uploads/2022/11/19-1.jpg'
     },
     {
       id: 20,

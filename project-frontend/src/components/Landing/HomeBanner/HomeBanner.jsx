@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from "../../Landing/Landing.module.scss";
 import { Button, Grid } from '@mui/material';
-import profileimg from '/assets/Homebanner_doctor.png';
+import profileimg from '/assets/drpragnesh.png';
 
 // --- SVG Icon Components ---
 // Using inline SVGs to keep everything in one file.
@@ -86,14 +86,13 @@ const HomeBanner = () => {
             <div className="relative max-w-lg mx-auto lg:max-w-none">
               
               {/* Background Gradient Circle */}
-              <div className="absolute inset-0 flex items-center justify-center">
+              {/* <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-full max-w-xl aspect-square bg-gradient-to-br from-cyan-100 to-green-100 rounded-full opacity-70 lg:opacity-100 -translate-x-4"></div>
-              </div>
+              </div> */}
 
               {/* Dentist Image */}
               <div className="relative ">
                 <img 
-                  // src="https://www.finefeather.in/wp-content/uploads/2024/06/104_2-1-copyright-e1719406164288.png"
                   src={profileimg}
                   alt="Smiling dentist holding dental tools" 
                   className="w-auto h-auto object-cover rounded-full"

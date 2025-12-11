@@ -15,9 +15,9 @@ import React from "react";
 import classes from "../../Landing/Landing.module.scss";
 export default function SmartSolar() {
   const plans = [
-    { img: "https://www.finefeather.in/wp-content/uploads/2024/06/04-740x740.jpg" },
-    { img: "https://www.finefeather.in/wp-content/uploads/2024/06/05-740x740.jpg" },
-    { img: "https://www.finefeather.in/wp-content/uploads/2024/06/07-1-740x740.jpg" },
+    { img: "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1765448031/07-1-740x740_ffr4xz.jpg" },
+    { img: "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1765448030/05-740x740_bgtnj8.jpg" },
+    { img: "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1765448031/InShot_20251211_153907460_ctoixy.jpg" },
   ];
 
   return (

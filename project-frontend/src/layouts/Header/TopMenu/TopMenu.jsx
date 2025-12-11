@@ -96,127 +96,127 @@ const TopMenu = () => {
                 </label>
                 <ul className="subMenu">
                   <li>
-                    <Link to="/our-services/braces-aligners">
+                    <Link to="/our-services/braces-aligners" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       BRACES & ALIGNERS
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/painless-root-canal">
+                    <Link to="/our-services/painless-root-canal" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       PAINLESS ROOT CANAL (SINGLE SITTING)
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/dental-implant">
+                    <Link to="/our-services/dental-implant" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       DENTAL IMPLANT
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/denture">
+                    <Link to="/our-services/denture" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       DENTURE
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/crowns-bridges">
+                    <Link to="/our-services/crowns-bridges" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       CROWNS & BRIDGES
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/full-mouth-reconstruction">
+                    <Link to="/our-services/full-mouth-reconstruction" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       FULL MOUTH RECONSTRUCTION
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/children-dentistry">
+                    <Link to="/our-services/children-dentistry" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       CHILDREN DENTISTRY
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/teeth-whitening">
+                    <Link to="/our-services/teeth-whitening" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       TEETH WHITENING
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/veneer-componeers">
+                    <Link to="/our-services/veneer-componeers" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       VENEER AND COMPONEERS
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/tmj-disorder">
+                    <Link to="/our-services/tmj-disorder" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       TMJ DISORDER
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/fillings-inlays-and-onlays">
+                    <Link to="/our-services/fillings-inlays-and-onlays" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       FILLINGS, INLAYS AND ONLAYS
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/jaw-bone-regenration">
+                    <Link to="/our-services/jaw-bone-regenration" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       JAW BONE REGENERATION
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/gum-disease">
+                    <Link to="/our-services/gum-disease" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       GUM DISEASE TREATMENT
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/gum-depigmentation-and-gum-contouring">
+                    <Link to="/our-services/gum-depigmentation-and-gum-contouring" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       GUM DEPIGMENTATION AND GUM CONTOURING
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/gum-repositioning-surgery">
+                    <Link to="/our-services/gum-repositioning-surgery" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       GUM REPOSITIONING SURGERY
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/flouride-treatment">
+                    <Link to="/our-services/flouride-treatment" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       FLOURIDE TREATMENT
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/teeth-straightening">
+                    <Link to="/our-services/teeth-straightening" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       TEETH STRAIGHTENING
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/jaw-growth-guidance">
+                    <Link to="/our-services/jaw-growth-guidance" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       JAW GROWTH GUIDANCE
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/orthognathic-surgery">
+                    <Link to="/our-services/orthognathic-surgery" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       ORTHOGNATHIC SURGERY
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/habit-breaking-appliances">
+                    <Link to="/our-services/habit-breaking-appliances" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       HABIT BREAKING APPLIANCES
                     </Link>
                   </li>
                   <li>
-                    <Link to="/our-services/preventive-sealants">
+                    <Link to="/our-services/preventive-sealants" onClick={() => setDropdownOpen(false)}>
                       <MinusOutlined className="dashIcons" />
                       PREVENTIVE SEALANTS
                     </Link>

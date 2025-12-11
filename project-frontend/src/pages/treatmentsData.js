@@ -75,7 +75,7 @@ const treatmentsData = [
         description:
           "Includes consultation, 3D imaging, surgical placement, healing period for osseointegration, and final prosthetic attachment (crown/bridge/overdenture).",
         image:
-          "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+          "https://images.unsplash.com/photo-1600585154340-be6161a56a0",
       },
     ],
   },
