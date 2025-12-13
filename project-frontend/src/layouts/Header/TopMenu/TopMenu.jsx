@@ -56,7 +56,7 @@ const TopMenu = () => {
 
               {/* TOP BAR (Desktop Only) */}
               <li className="bg-white border-b py-1">
-                <div className="max-w-7xl mx-auto flex justify-between items-center px-4 gap-2">
+                <div className="max-w-7xl mx-auto flex flex-row md:flex-col xl:flex-col 2xl:flex-row justify-between items-center px-4 gap-2">
 
                   {/* Phone Section */}
                   <div className="flex items-center gap-2">
