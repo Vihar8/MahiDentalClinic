@@ -121,8 +121,8 @@ const allServices = [
 
   return (
     <>
-    <div className="min-h-screen bg-gray-50 py-16 px-4">
-      <div className="max-w-7xl mx-auto">
+    <div className="bg-gray-100 px-6 py-4">
+      <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
           <p className="text-gray-600 font-semibold mb-2 tracking-wide">Our Services</p>

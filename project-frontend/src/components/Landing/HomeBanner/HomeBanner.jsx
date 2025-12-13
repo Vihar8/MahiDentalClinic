@@ -48,57 +48,51 @@ const HomeBanner = () => {
   ];
 
   return (
-    <section className="bg-white font-['Inter',_sans-serif] py-16  overflow-hidden">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col lg:flex-row items-center">
+    <section className="bg-white font-['Inter',_sans-serif] py-14 overflow-hidden">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
           
           {/* --- Left Column: Text Content --- */}
-            <div className="lg:w-1/3 w-full text-center lg:text-left flex flex-col items-center lg:items-start mx-auto">
-            <h1 className="text-6xl sm:text-5xl md:text-6xl font-bold text-slate-800 leading-tight">
+            <div className="lg:w-1/2 max-w-lg text-center lg:text-left flex flex-col items-center lg:items-start">
+            <h1 className="text-4xl sm:text-5xl  font-bold text-slate-800 leading-tight">
               Putting Your
               <span className=" block text-[#88B121]"><strong>Smile First</strong></span>
             </h1>
-            <p className="mt-4 text-gray-600 text-lg">
+            <p className="mt-3 text-gray-600 text-lg">
               Trusted by <span className="font-bold text-gray-800">150000+ Patients</span>
             </p>
 
-            <div className="mt-8 grid grid-cols-2 gap-x-6 gap-y-4 max-w-md mx-auto lg:mx-0">
+            <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 max-w-sm">
               {services.map((service) => (
                 <div key={service.name} className="flex items-center space-x-2">
-                  <span className="flex-shrink-0">
+                  <span className="flex items-center space-x-2">
                     {service.icon}
                   </span>
-                  <span className="text-gray-700 font-medium">{service.name}</span>
+                  <span className="text-gray-700  text-sm font-medium">{service.name}</span>
                 </div>
               ))}
             </div>
 
             <a
               href="/appointmentpage"
-              className="mt-10 inline-block bg-[#88B121] text-white font-bold text-sm uppercase tracking-wider py-4 px-8 rounded-full shadow-lg hover:bg-lime-600 transition-colors duration-300"
+              className="mt-8 inline-block bg-[#88B121] text-white font-bold text-sm uppercase tracking-wider py-4 px-8 rounded-full shadow-lg hover:bg-lime-600 transition-colors duration-300"
             >
               Book An Appointment
             </a>
           </div>
 
           {/* --- Right Column: Image & Badges --- */}
-          <div className="lg:w-1/2 w-full mt-16 lg:mt-0">
-            <div className="relative max-w-lg mx-auto lg:max-w-none">
-              
-              {/* Background Gradient Circle */}
-              {/* <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-full max-w-xl aspect-square bg-gradient-to-br from-cyan-100 to-green-100 rounded-full opacity-70 lg:opacity-100 -translate-x-4"></div>
-              </div> */}
-
-              {/* Dentist Image */}
-              <div className="relative ">
-                <img 
-                  src={profileimg}
-                  alt="Smiling dentist holding dental tools" 
-                  className="w-auto h-auto object-cover rounded-full"
-                  onError={(e) => { e.target.src = 'https://placehold.co/600x700/E0E0E0/777777?text=Image+Not+Found'; }}
-                />
-              </div>
+          <div className="lg:w-1/2 flex justify-center">
+        <img
+          src={profileimg}
+          alt="Dentist"
+          className="max-w-sm w-full h-auto rounded-full object-cover"
+          onError={(e) => {
+            e.target.src =
+              "https://placehold.co/500x600/E0E0E0/777777?text=Image+Not+Found";
+          }}
+        />
+      </div>
 
               {/* 20 Years Badge */}
               {/* <div className="absolute  bottom-4 left-1/2 -translate-x-1/2 lg:left-0 lg:bottom-12 lg:-translate-x-1/4 w-auto">
@@ -128,8 +122,6 @@ const HomeBanner = () => {
             </div>
           </div>
 
-        </div>
-      </div>
     </section>
   );
 };

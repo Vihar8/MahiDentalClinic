@@ -31,7 +31,7 @@ const Footer = () => {
                   MAHI DENTAL CLINIC
                 </h4>
                 <p className={`${classes.footerText}`}>
-                  Mahi Dental Clinic has more than 15000 satisfied patients. Located in Sector 7, Gandhinagar, our clinic provides world-class dental treatment using state-of-the-art dental instruments, delivered by a highly trained and experienced team of specialist dentists. With a strong reputation (4.7/5) from our patients, we’re committed to excellence in every service.
+                  Mahi Dental Clinic has more than 15000 satisfied patients. Located in Sector 7, Gandhinagar, our clinic provides world-class dental treatment using state-of-the-art dental instruments, delivered by a highly trained and experienced team of specialist dentists. With a strong reputation (4.9/5) from our patients, we’re committed to excellence in every service.
                   Dental Clinic in Gandhinagar, Dental Clinic Near Me, Best Dentist in Gandhinagar
                 </p>
                 <p className={`${classes.footerText}`}>

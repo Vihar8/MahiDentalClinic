@@ -93,7 +93,7 @@ const ReviewCarousel = () => {
           </h1>
         </div>
     <div className="flex justify-center items-center w-full py-8 mb-6 bg-white">
-      <div className="relative w-full max-w-7xl flex items-center justify-center">
+      <div className="relative w-full max-w-6xl flex items-center justify-center">
         {/* Left Arrow */}
         {/* <button
           onClick={prevSlide}
