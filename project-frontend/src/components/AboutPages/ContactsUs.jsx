@@ -1,7 +1,7 @@
 import React from 'react'
 import Grid from "@mui/material/Grid";
 import classes from "./AboutPages.module.scss";
-import bgBlueGrid from "/assets/bg-blue-grid1.svg";
+import bgBlueGrid from "/assets/contactus.jpg";
 import { Link } from 'react-router-dom';
 
 const ContactsUs = () => {
@@ -14,7 +14,7 @@ const ContactsUs = () => {
           <img
             src={bgBlueGrid}
             alt="Background Grid"
-            className={`${classes.bgImage}`}
+            className={`${classes.bgImagee}`}
           />
           <div className={`${classes.textContainer}`}>
             <h2 className={`${classes.headinga}`}>
@@ -27,7 +27,7 @@ const ContactsUs = () => {
         </div>
         <div className='m-5'>
           <Grid container spacing={4}>
-            <section className="w-full bg-white py-16">
+            <section className="w-full bg-white">
               <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-12">
 
                 {/* LEFT CONTENT */}
@@ -43,10 +43,9 @@ const ContactsUs = () => {
                     delivered by a skilled and experienced team, with many satisfied patients.
                   </p>
 
-                  <p className="font-semibold text-[#8B4513] mb-6">
-                    Sector 7, Block C, Gandhinagar,
-                    Gandhinagar Sector 7 – 382007
-                  </p>
+                  <p className='mt-8 font-bold'>
+                <span className='text-amber-900'>Sector 7</span>, Block C, Gandhinagar, Gandhinagar-Gujarat 382007
+              </p>
 
                   {/* CONTACT DETAILS */}
                   <div className="space-y-4 text-gray-800">
@@ -97,7 +96,7 @@ const ContactsUs = () => {
               </div>
             </section>
           </Grid>
-          <div className="flex items-center justify-center gap-2 mt-2">
+          <div className="flex items-center justify-center gap-2 mt-4">
             <img
               src="/assets/mahi_dental_logo.jpg"
               alt="Company Logo"

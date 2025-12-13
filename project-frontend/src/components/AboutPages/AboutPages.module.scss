@@ -27,7 +27,9 @@
   .bgImage {
     @apply absolute top-0 left-0 w-full h-full object-cover;
   }
-  
+  .bgImagee {
+    @apply absolute top-0 left-0 w-full h-full object-cover  brightness-50;
+  }
   /* Text Container */
   .textContainer {
     @apply text-center relative z-0 max-w-[939px] mx-auto  pt-12;
