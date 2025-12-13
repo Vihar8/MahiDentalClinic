@@ -56,8 +56,7 @@ const TopMenu = () => {
 
               {/* TOP BAR (Desktop Only) */}
               <li className="bg-white border-b py-1">
-                <div className="max-w-7xl mx-auto flex justify-between items-center px-4 gap-2">
-
+                <div className="max-w-7xl mx-auto flex justify-between items-center px-4 gap-2">              
                   {/* Phone Section */}
                   <div className="flex items-center gap-2">
                     <MobileOutlined className="text-[#88b121] text-xl" />
@@ -67,7 +66,7 @@ const TopMenu = () => {
                     </div>
                   </div>
 
-                  {/* Timing Section */}
+                  {/* Timing Section
                   <div className="flex items-center gap-2">
                     <ClockCircleOutlined className="text-[#88b121] text-xl" />
                     <div className="text-xs leading-tight">
@@ -75,6 +74,15 @@ const TopMenu = () => {
                       <p className="font-medium text-black text-sm">
                         <span className="font-bold">Mon-Sat</span> 9:30 - 7:00
                       </p>
+                    </div> 
+                  </div>*/}
+
+                  {/* Timing Section */}
+                  <div className="flex items-center no-gap">
+                    <ClockCircleOutlined className="text-[#88b121] text-xl" />
+                    <div className="text-sm font-medium text-black whitespace-normal sm:whitespace-nowrap">
+                      <span className="uppercase text-[10px] text-gray-900 mr-1">We are open!</span>
+                      <span className="font-bold">Mon-Sat</span> 9:30 - 7:00
                     </div>
                   </div>
 
