@@ -55,3 +55,21 @@
 .footerImg {
   @apply flex flex-col items-start mb-4;
 }
+
+.footerMap {
+  position: relative;
+  width: 100%;
+  height: 220px;      // fixed height for mobile
+  overflow: hidden;  // IMPORTANT: stops map from overflowing
+  border-radius: 12px;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  @media (min-width: 768px) {
+    height: 280px;   // desktop height
+  }
+}

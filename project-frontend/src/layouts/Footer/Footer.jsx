@@ -38,6 +38,30 @@ const Footer = () => {
                   Block C, Sector 7, Gandhinagar, Gandhinagar Sector 7-382007
                 </p>
 
+                <p className={`${classes.emailText} contactWrapper`}>               
+                  <span className="icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      viewBox="0 0 16 16"
+                      aria-hidden="true"
+                    >
+                      <path d="M8 0a5 5 0 0 0-5 5c0 3.866 5 11 5 11s5-7.134 5-11a5 5 0 0 0-5-5zm0 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" />
+                    </svg>
+                  </span>
+
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Mahi+Dental+Clinic+Sector+7+Gandhinagar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View on Google Maps
+                 </a>
+                </p>
+
+
                 <p className={`${classes.emailText} contactWrapper`}>
                   <span className="icon">
                     <svg
@@ -79,12 +103,20 @@ const Footer = () => {
                 <NavigationMenu />
               </div>
             </Grid>
-
-            {/* <Grid item xs={12} sm={2} md={2} lg={3}>
-                <div className={`${classes.footerDivide}`}>
-                 <NavigationMenu />
-                </div>
-            </Grid> */}
+            
+            <Grid item xs={12} sm={12} md={2} lg={3}>
+                    <div className={classes.footerMap}>
+                          <iframe
+                                 title="Mahi Dental Clinic Location"
+                                 src="https://www.google.com/maps?q=Mahi+Dental+Clinic+Sector+7+Gandhinagar&output=embed"
+                                 width="100%"
+                                 height="100%"
+                                 style={{ border: 0, borderRadius: "12px" }}
+                                 loading="lazy"
+                                 referrerPolicy="no-referrer-when-downgrade"
+                           />
+                      </div>
+            </Grid>
           </Grid>
         </Container>
       </div>

@@ -81,7 +81,7 @@ const TopMenu = () => {
                   <div className="flex items-center no-gap">
                     <ClockCircleOutlined className="text-[#88b121] text-xl" />
                     <div className="text-sm font-medium text-black whitespace-normal sm:whitespace-nowrap">
-                      <span className="uppercase text-[10px] text-gray-900 mr-1">We are open!</span>
+                      <p className="uppercase text-[10px] text-gray-900 mr-1">We are open!</p>
                       <span className="font-bold">Mon-Sat</span> 9:30 - 7:00
                     </div>
                   </div>
