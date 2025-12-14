@@ -67,7 +67,7 @@ const TopMenu = () => {
                     </div>
                   </div>
 
-                  {/* Timing Section
+                  {/* Timing Section */}
                   <div className="flex items-center gap-2">
                     <ClockCircleOutlined className="text-[#88b121] text-xl" />
                     <div className="text-xs leading-tight">
@@ -75,15 +75,6 @@ const TopMenu = () => {
                       <p className="font-medium text-black text-sm">
                         <span className="font-bold">Mon-Sat</span> 9:30 - 7:00
                       </p>
-                    </div> 
-                  </div>*/}
-
-                  {/* Timing Section */}
-                  <div className="flex items-center no-gap">
-                    <ClockCircleOutlined className="text-[#88b121] text-xl" />
-                    <div className="text-sm font-medium text-black whitespace-normal sm:whitespace-nowrap">
-                      <p className="uppercase text-[10px] text-gray-900 mr-1">We are open!</p>
-                      <span className="font-bold">Mon-Sat</span> 9:30 - 7:00
                     </div>
                   </div>
 
