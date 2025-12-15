@@ -38,7 +38,7 @@ const Footer = () => {
                   Block C, Sector 7, Gandhinagar, Gandhinagar Sector 7-382007
                 </p>
 
-                <p className={`${classes.emailText} contactWrapper`}>               
+                <p className={`${classes.emailText} contactWrapper`}>
                   <span className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                   >
                     View on Google Maps
-                 </a>
+                  </a>
                 </p>
 
 
@@ -103,19 +103,20 @@ const Footer = () => {
                 <NavigationMenu />
               </div>
             </Grid>
-            
+
             <Grid item xs={12} sm={12} md={2} lg={3}>
-                    <div className={classes.footerMap}>
-                          <iframe
-                                 title="Mahi Dental Clinic Location"
-                                 src="https://www.google.com/maps?q=Mahi+Dental+Clinic+Sector+7+Gandhinagar&output=embed"
-                                 width="100%"
-                                 height="100%"
-                                 style={{ border: 0, borderRadius: "12px" }}
-                                 loading="lazy"
-                                 referrerPolicy="no-referrer-when-downgrade"
-                           />
-                      </div>
+            <h4 className={`${classes.footerHeading} !mb-2`}>Location</h4>
+              <div className={classes.footerMap}>
+                <iframe
+                  title="Mahi Dental Clinic Location"
+                  src="https://www.google.com/maps?q=Mahi+Dental+Clinic+Sector+7+Gandhinagar&output=embed"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, borderRadius: "12px" }}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
             </Grid>
           </Grid>
         </Container>
