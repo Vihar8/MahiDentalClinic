@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import treatmentsData from "./treatmentsData";
+import treatmentsData from "./treatmentsData.jsx";
 import ServiceCard from "../components/Landing/ServiceCard/ServiceCard";
 
 const TreatmentPage = () => {
