@@ -600,7 +600,7 @@ body {
   .nav-content .links ul {
     @apply absolute justify-center top-full mt-4 bg-white shadow-lg rounded-md 
            opacity-0 invisible min-w-[150px] transition-all duration-200 
-           max-h-[700px] overflow-y-auto z-50; /* 👈 important */
+           max-h-[500px] overflow-y-auto z-50; /* 👈 important */
   }
 
    .nav-content .links ul::-webkit-scrollbar {
