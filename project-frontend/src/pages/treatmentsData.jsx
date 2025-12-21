@@ -450,7 +450,6 @@ Mahi Dental renders out standing veneers services. Our veneers clinic house ever
     },
     {
       title: "what is ‘TMJ’ disorder?",
-         title: "Laser Treatment",
            description: (
     <>
       <p className="mb-4">
