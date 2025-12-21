@@ -68,15 +68,15 @@ const TopMenu = () => {
                   </div>
 
                   {/* Timing Section
-                  // <div className="flex items-center gap-2">
-                  //   <ClockCircleOutlined className="text-[#88b121] text-xl" />
-                  //   <div className="text-xs leading-tight">
-                  //     <p className="text-gray-900 uppercase text-[10px]">We are open!</p>
-                  //     <p className="font-medium text-black text-sm">
-                  //       <span className="font-bold">Mon-Sat</span> 9:30 - 7:00
-                  //     </p>
-                  //   </div>
-                  // </div> */}
+                  <div className="flex items-center gap-2">
+                    <ClockCircleOutlined className="text-[#88b121] text-xl" />
+                    <div className="text-xs leading-tight">
+                      <p className="text-gray-900 uppercase text-[10px]">We are open!</p>
+                      <p className="font-medium text-black text-sm">
+                        <span className="font-bold">Mon-Sat</span> 9:30 - 7:00
+                      </p>
+                    </div>
+                  </div> */}
 
                   {/* Timing Section */}
                   <div className="flex items-center gap-1 px-3 py-2 bg-[#f5f9ef] rounded-lg flex-wrap sm:flex-nowrap">
