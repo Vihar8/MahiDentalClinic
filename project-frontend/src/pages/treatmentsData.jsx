@@ -269,7 +269,7 @@ const treatmentsData = [
   {
     id: "tmj-disorder",
     name: "TMJ Disorder",
-    description: "Specialized care for jaw joint pain and TMJ disorders.",
+    description: "Temporomandibular joint is the axial joint that hooks up the lower jaw with skull’s temporal bone. These joints maintains jaw plasticity. The jaw can smoothly make up-down and side to side movements along with enabling a person to chew, yawn or talk.",
     image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
     subTreatments: [
     {
@@ -279,45 +279,108 @@ const treatmentsData = [
       image: "https://www.finefeather.in/wp-content/uploads/2022/10/service-img-627x410.jpg",
     },
     {
-      title: "Benefits of Preventive Sealants",
-      description:
-        "Sealants significantly reduce the risk of cavities in children and adults, protect tooth enamel, and provide long-lasting defense against decay with a simple, painless application.",
-      image: "https://www.finefeather.in/wp-content/uploads/2022/11/05-2.jpg",
+      title: "what is ‘TMJ’ disorder?",
+         title: "Laser Treatment",
+           description: (
+    <>
+      <p className="mb-4">
+     Temporomandibular Joint Disorder refers to jaw disorders. “TMJ Disorder” occurs when trouble arises in jaw, jaw joints facial muscles that regulate jaw movements or teeth. TMJ Disorder creates dysfunction in jaw muscles thereby causing excruciating pain while moving the jaw. Pain is the main syndrome of TMJ Disorder that occurs in regular cycles.
+      </p>
+      <h3 className="font-bold">Reasons</h3>
+      <ul className="list-disc pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Unbalanced chewing</li>
+        <li>Spasm of jaw muscle</li>
+        <li>Overuse of jaw muscles</li>
+      </ul>
+       <h3 className="font-bold">Symptoms</h3>
+      <ul className="list-disc pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Unbalanced chewing</li>
+        <li>Spasm of jaw muscle</li>
+        <li>Overuse of jaw muscles</li>
+      </ul>
+    </>
+  ),
+  image: "https://www.finefeather.in/wp-content/uploads/2022/11/05-2.jpg",
     },
     {
-      title: "Who Needs Preventive Sealants?",
-      description:
-        "Sealants are especially recommended for children when their permanent molars erupt. Adults without fillings or decay can also benefit from sealants to maintain oral health.",
-      image: "https://www.finefeather.in/wp-content/uploads/2022/11/02-3-600x350.jpg",
+      title: "WHY US?",
+        description: (
+    <>
+      <p className="mb-4">
+     Sometimes the pain vanishes with little treatment; however, if TMJ Disorder specialist is not consulted it may lead to long-term problems. </p>
+     
+      <p className="mb-4">
+    Fine Feather Dental has distinctly skilled TMJ Disorder specialists who are capable of removing your ora-facial pain. </p>
+     
+      <p className="mb-4">
+     TMJ pain is mostly temporary but if not taken care of then it can progress to headache, back ache & lower back muscle also.</p>
+    </>
+  ),
+  image: "https://www.finefeather.in/wp-content/uploads/2022/11/02-3-600x350.jpg",
+    },
+     {
+      title: "Conservative Treatments",
+        description: (
+    <>
+      <h3 className="font-bold">TMJ Arthrocentesis procedure</h3>
+       <p className="mb-4">
+  <span className="font-bold">Jaw Relaxation: </span>In the initial therapy, the jaw is relaxed by utilizing warm compresses. If there are any dental injuries, then instead of warm compresses we make use of ice packs. Along with this, pain-relieving medications are also prescribed. Jaw relaxation can heal temporomandibular joints. In this treatment, we also follow stress-reduction techniques which will release stress as well as relax your jaw and body. The following care is expected from the patient’s side:</p>
+  <ul className="list-decimal pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Consume only soft foods and avoid chewy foods.</li>
+        <li>Avoid eating chewing gum or hard candy.</li>
+        <li>Avoid wide opening of your mouth.</li>
+        <li>Practice muscle stretching or relaxation exercises exactly as guided by our TMJ specialist.</li>
+      </ul>
+    <p className="mb-4">
+  <span className="font-bold">Fitting Splint: </span>In the initial therapy, the jaw is relaxed by utilizing warm compresses. If there are any dental injuries, then instead of warm compresses we make use of ice packs. Along with this, pain-relieving medications are also prescribed. Jaw relaxation can heal temporomandibular joints. In this treatment, we also follow stress-reduction techniques which will release stress as well as relax your jaw and body. The following care is expected from the patient’s side:</p>
+  <ul className="list-decimal pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Reducing Clenching</li>
+        <li>Teeth grinding</li>
+        <li>Ease muscle tension</li>
+      </ul>
+      </>
+  ),
+  image: "https://www.finefeather.in/wp-content/uploads/2022/11/02-3-600x350.jpg",
+    },
+     {
+      title: "Invasive Treatments",
+        description: (
+    <>
+      <h3 className="font-bold">TMJ Arthrocentesis procedure</h3>
+       <p className="mb-4">
+    Invasive techniques are used when conservative techniques fail to ease your problem. In this technique two needles are inserted in temporomandibular joint so as to wash it thoroughly. One needle is attached with cleansing solution filled syringe. This fluid exists through the other syringe.
+This method suits many and the pain gets back to normal. Sometimes, pain relieving medications are also injected in similar way.
+</p>
+ <h3 className="font-bold">Surgery</h3>
+       <p className="mb-4">
+    We generally avoid advising this treatment to our valuable patients as it is irreversible. We apply it in extreme cases where the joints in the jaw are replaced with artificial implants.
+    </p>
+      
+      </>
+  ),
+  image: "https://www.finefeather.in/wp-content/uploads/2022/11/02-3-600x350.jpg",
     },
   ],
 },
   {
     id: "fillings-inlays-and-onlays",
     name: "Fillings, Inlays and Onlays",
-    description: "Repair cavities and restore teeth with aesthetic fillings.",
+    description: "Repair partially damaged or decayed teeth, restoring them to their original shape and preventing further decay or damage with Dental fillings. Protect your teeth from further deterioration..",
     image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
     subTreatments: [
       {
-        title: "Composite Fillings",
+        title: "What is a Tooth Filling?",
         description:
-          "Tooth-colored direct restorations for small to moderate cavities with conservative preparation and aesthetic blending with natural enamel.",
+          "When a tooth gets partially damaged, decayed or worn out, then that partially ruined part is tooth by a dentist and called a filling. Fillings restore the tooth to its initial shape and size. Dental fillings are used when you want to prevent the tooth to decay from any further decaying/damaging.",
         image:
           "https://images.unsplash.com/photo-1600585154342-5a6b7c8d9e0f",
       },
       {
-        title: "Inlays & Onlays",
+        title: "what is inlays and onlays?",
         description:
-          "Indirect restorations fabricated in the lab (ceramic or composite) for larger defects — stronger and longer-lasting than large direct fillings.",
+          "Inlays and onlays are an alternative to fillings. They are far better in longevity as compared to fillings. Inlays and onlays are extremely comfortable while large repairs of frontal teeth or chewing textures of back teeth. They can be made from resin or porcelain. An inlay fits itself in the tooth hole while onlays will automatically build its shape like a tooth.",
         image:
           "https://images.unsplash.com/photo-1588774069618-4b3c2d1e5f6a",
-      },
-      {
-        title: "Durability & Indications",
-        description:
-          "Inlays/onlays are indicated when the defect is too big for a filling but a full crown is unnecessary — they preserve healthy tooth and provide excellent longevity.",
-        image:
-          "https://images.unsplash.com/photo-1603398938373-3c2b1a4d5e6f",
       },
     ],
   },
@@ -328,25 +391,46 @@ const treatmentsData = [
     image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
     subTreatments: [
       {
-        title: "Types of Grafts",
-        description:
-          "Autografts, allografts, xenografts and synthetic grafts are selected based on defect size, patient health and timing relative to implant placement.",
-        image:
-          "https://images.unsplash.com/photo-1600585154343-6b7c8d9e0f1a",
+        title: "What Is Jaw Bone Regeneration?",
+           description: (
+    <>
+      <p className="mb-4">
+      People likely experience weird gum diseases with their growing age that may end up in losing the jaw bone. If this occurs, Jaw Bone Regeneration becomes quite mandatory that will prevent tooth loss. Our expert periodontists are trained under IIM professionals to perform surgical procedures of bone regeneration. Two types of material are used in preparing jaw bone membranes:
+      </p>
+
+      <ul className="list-disc pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Synthetic polymer: This is not absorbed by the body and is to be compulsorily removed after some time.</li>
+        <li>Natural material: This is slowly absorbed by our body.</li>
+      </ul>
+    </>
+  ),
+  image:
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766317327/Gemini_Generated_Image_80xqdd80xqdd80xq_rmdamu.png",
       },
       {
-        title: "Guided Bone Regeneration (GBR)",
-        description:
-          "Use of barrier membranes with graft material to guide new bone growth into a defect area, commonly used for implant site development.",
-        image:
-          "https://images.unsplash.com/photo-1588774069617-2d3c4b5a6f7e",
-      },
-      {
-        title: "Outcome & Healing",
-        description:
-          "Healing times vary (weeks to months); successful regeneration enables stable implant placement and improved long-term prosthetic outcomes.",
-        image:
-          "https://images.unsplash.com/photo-1603398938372-1f2e3d4c5b6a",
+        title: "Why Us?",
+          description: (
+    <>
+      <p className="mb-4">
+      Fine Feather’s Jaw Bone Regeneration services are a must due to the following compelling reasons:
+      </p>
+
+      <ul className="list-disc pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Guaranteed protection to the existing teeth.</li>
+        <li>Avoid tooth loss.</li>
+        <li>Safeguard soft gum tissues that keep teeth intact.</li>
+        <li>Restore the damaged gum disease.</li>
+        <li>Personalized services to every patient.</li>
+        <li>No long waiting hours.</li>
+        <li>Quick and faster results.</li>
+        <li>Painless surgery.</li>
+        <li>Post-surgery follow-up appointments are scheduled to examine the bone growth.</li>
+        <li>Post jaw bone regeneration surgery, we assign you a plan that is handy to take complete care of your bone. Taking appropriate care post the surgery will make it successful in long run.</li>
+      </ul>
+    </>
+  ),
+  image:
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766317470/jabo_vuq1yx.png",
       },
     ],
   },
@@ -357,25 +441,53 @@ const treatmentsData = [
     image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
     subTreatments: [
       {
-        title: "Non-Surgical Therapy",
+        title: "Gum Disease Treatment",
         description:
-          "Scaling and root planing (deep cleaning), antimicrobial therapy and improved home care often successfully manage early to moderate gum disease.",
+          "Gum diseases can range from ordinary inflammation to severe damage, making it crucial to consult an expert periodontist to prevent tooth loss. Neglecting oral hygiene leads to the formation of sticky, colourless plaque, which can be removed through regular brushing and flossing. However, if plaque is not removed within 24 hours, it hardens into tartar, which brushing alone cannot eliminate. Fine Feather Dental clinic’s experienced professionals skillfully remove tartar, ensuring oral health and preserving your dazzling smile.",
         image:
-          "https://images.unsplash.com/photo-1600585154344-7c8d9e0f1a2b",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766316555/11_dq1ua4.png",
       },
       {
-        title: "Surgical Periodontal Procedures",
-        description:
-          "Flap surgery, osseous recontouring and regenerative procedures are used for deep pockets or bone defects to re-establish healthy periodontal support.",
-        image:
-          "https://images.unsplash.com/photo-1588774069616-1a2b3c4d5e6f",
+        title: "Our specialized treatments",
+         description: (
+    <>
+      <p className="mb-4 font-bold">
+       Our Gum Disease Services Offer Some Best Surgical and Non-Surgical Treatments as Follows:
+      </p>
+
+      <ul className="list-disc pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Scaling and Root Planning,</li>
+        <li>Subgingival Curettage</li>
+        <li>Surgery Flap</li>
+        <li>Bone Grafts</li>
+        <li>Gingivectomy</li>
+        <li>Crown Lengthening</li>
+      </ul>
+    </>
+  ),
+  image:
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766316555/gum13_esyymr.png",
       },
       {
-        title: "Maintenance & Prevention",
-        description:
-          "Regular periodontal maintenance cleanings, excellent oral hygiene and risk factor control (smoking, diabetes) are critical to prevent recurrence.",
-        image:
-          "https://images.unsplash.com/photo-1603398938371-0a1b2c3d4e5f",
+        title: "Laser Treatment",
+           description: (
+    <>
+      <p className="mb-4 font-bold">
+      This Therapy Reduces The Gum Tissue With Laser. Its Benefits Are:
+      </p>
+
+      <ul className="list-disc pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Scaling and Root Planning,</li>
+        <li>Subgingival Curettage</li>
+        <li>Surgery Flap</li>
+        <li>Bone Grafts</li>
+        <li>Gingivectomy</li>
+        <li>Crown Lengthening</li>
+      </ul>
+    </>
+  ),
+  image:
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766316555/gu12_z1zevk.png",
       },
     ],
   },
@@ -386,25 +498,53 @@ const treatmentsData = [
     image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
     subTreatments: [
       {
-        title: "Gum Contouring (Gingivoplasty)",
+        title: "What Is Gum Depigmentation?",
         description:
-          "Precise reshaping of excess or uneven gum tissue using lasers or scalpel to expose more tooth structure and improve smile proportions.",
+          "Cosmetic dentistry, a growing trend, includes gum depigmentation surgery to remove melanin-induced gum patches or stains. Fine Feather is a renowned clinic in India, offering affordable services for minor and major gum issues. Our expert team customises treatments after clinical assessments, utilising surgical, chemical, or laser ablation methods. With upgraded gum bleaching techniques, our unbeatable services are accessible to all at reasonable rates. Explore our jam-packed techniques for a flawless smile.",
         image:
-          "https://images.unsplash.com/photo-1600585154345-8d9e0f1a2b3c",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766315726/gdc_z6ctfb.png",
       },
       {
-        title: "Gum Depigmentation",
+        title: "Laser Gum Depigmentation Technique",
         description:
-          "Laser or surgical removal of melanin-rich gum tissue to lighten dark gums and achieve a more esthetic pink appearance.",
+          "This laser gum bleaching is performed via a specialized dental laser that targets to reduce increased melanin in the gingival tissue. This heals the gingiva by secondary intention thereby lightening the gum colour.",
         image:
-          "https://images.unsplash.com/photo-1588774069615-3b2c1d4e5f6a",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766315724/gdc3_fh0a1n.png",
       },
       {
-        title: "Recovery & Results",
-        description:
-          "Minimally invasive techniques allow rapid healing; final cosmetic results are visible after soft tissue stabilization and proper post-op care.",
-        image:
-          "https://images.unsplash.com/photo-1603398938370-9b8a7c6d5e4f",
+        title: "What Is Gum Contouring?",
+        description: (
+    <>
+      <p className="mb-4">
+      Gum contouring is the latest dental method where the gingival tissue around the teeth is reshaped. Our surgery is prime that will improve your oral health and reinvent your delicate smile. Laser gum contouring re-sculpts uneven gum tissues. Our surgeons are so expert and specialized that they can conduct the entire surgery smoothly. They are innovative to re-discover younger-looking stunning smiles that will enhance your confidence and appearance.
+      </p>
+           <p className="mb-4">
+      Our treatment involves one visit to our periodontist and that too only for an hour. This laser surgery is done under general anaesthesia which causes minor stretching discomfort. However, there is no bleeding or stitches included in this treatment.
+      </p>
+    </>
+  ),
+   image:
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766315721/gdc1_j5lvlz.png",
+      },
+       {
+        title: "What benefits do we offer?",
+        description: (
+    <>
+      <h3 className="mb-4 font-bold">
+      Our following benefits will compel you to hire our services:
+      </h3>
+
+      <ul className="list-disc pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Complete makeover of the smile</li>
+        <li>Stronger gums</li>
+        <li>Attractive teeth</li>
+        <li>Safe, painless and faster surgery</li>
+        <li>Instant results and you can start your activities just after an hour</li>
+        <li>Enhanced self-confidence</li>
+      </ul>
+    </>
+  ),image:
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766315722/Gemini_Generated_Image_r3o60zr3o60zr3o6_ooyayq.png",
       },
     ],
   },
@@ -415,25 +555,34 @@ const treatmentsData = [
     image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
     subTreatments: [
       {
-        title: "Root Coverage Procedures",
+        title: "Gum Repositioning Surgery",
         description:
-          "Connective tissue grafts and pedicle flaps cover exposed roots, reduce sensitivity and restore a healthy gum margin.",
+          "Fine Feather Dental can give you the stunning celebrity smile you desire. With advanced gum repositioning surgical machines, we resolve gum problems instantly. As one of the largest dental care chains in the country, we offer unbeatable painless dental surgeries by professional orthodontists available 24/7. We ensure state-of-the-art equipment and a comprehensive range of services available under one roof for your holistic oral care., Fine Feather aims to provide rapid and long-lasting results for a confident smile. Get rid of that gummy smile and maintain your delicate smile at Fine Feather Dental.",
         image:
-          "https://images.unsplash.com/photo-1600585154346-9e0f1a2b3c4d",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766313669/ggs1_ubtfkc.png",
       },
       {
-        title: "Mucogingival Surgery",
+        title: "What Is Gum Repositioning?",
         description:
-          "Surgical correction of the relationship between gum tissue and alveolar mucosa to improve aesthetics and maintain periodontal health.",
+          "Lip repositioning is a surgery to lower the upper lip to reduce gum tissue exposure. During the surgery, a small layer of tissue is extracted to suture the exposed area in the new position. This process takes us nearly 30-45 minutes but we guarantee immediate results.",
         image:
-          "https://images.unsplash.com/photo-1588774069614-4c3b2a1d5e6f",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766313669/ggs12_eobqtm.png",
       },
       {
-        title: "Healing & Maintenance",
-        description:
-          "Post-surgical care includes gentle cleaning, short-term antibiotics or antiseptics and follow-up to ensure graft integration and stable margins.",
-        image:
-          "https://images.unsplash.com/photo-1603398938369-8a7b6c5d4e3f",
+        title: "What Benefits do We Offer?",
+         description: (
+    <>
+      <ul className="list-disc pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Consistent appearance of teeth and gums in a proportionate amount.</li>
+        <li>Faster recovery.</li>
+        <li>Lowest competitive prices.</li>
+        <li>No external scars.</li>
+        <li>We offer required follow-ups post-surgery just to keep a regular record of our surgical process.</li>
+      </ul>
+    </>
+  ),
+  image:
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766313669/ggs13_vf2eml.png",
       },
     ],
   },
@@ -444,25 +593,41 @@ const treatmentsData = [
     image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
     subTreatments: [
       {
-        title: "Topical Fluoride",
+        title: "Flouride Treatment",
         description:
-          "Varnishes or gel applications delivered in-office provide concentrated fluoride to strengthen enamel and help remineralize early decay.",
+          "Fine Feather Dental’s fluoride treatment for kids is becoming increasingly popular.. Fluoride treatment is not an uncommon activity in other dentistry. It is one of the oldest treatments offered by almost all dentists. It includes a bubble-gum flavoured polish for children’s teeth. However, how this treatment will have its impact on you, how it will protect your teeth from washing off and whether it is safe or not will be explained by our expert professionals nowhere but at Fine Feather Dental only!",
         image:
-          "https://images.unsplash.com/photo-1600585154347-0f1a2b3c4d5e",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766313084/fl3_x0bskn.png",
       },
       {
-        title: "Home Fluoride Options",
+        title: "What Is Fluoride?",
         description:
-          "Prescription fluoride toothpaste or mouthrinse may be recommended for high-risk patients to maintain enamel protection between visits.",
+          "Fluoride is a natural mineral that bonds well with minerals residing in human teeth or tooth enamel. It is extremely effective to prevent tooth decay or pain as a part of oral health routine. It has the capability to reverse cavities, remineralize enamel, strengthening gum-tooth bonds etc. Most common fluoride sources used in our routine lives are drinking water or tooth products like toothpastes or rinses. However the most potent source is seen at a professional dentistry only.",
         image:
-          "https://images.unsplash.com/photo-1588774069613-5d4c3b2a1e6f",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766313084/fl2_eikyhq.png",
       },
       {
-        title: "Who Benefits Most",
-        description:
-          "Children, patients with high caries risk, root exposure, or sensitivity benefit most from targeted fluoride therapies.",
-        image:
-          "https://images.unsplash.com/photo-1603398938368-7c6b5a4d3e2f",
+        title: "What we offer?",
+         description: (
+    <>
+      <h3 className="font-bold mb-4">
+       Our Treatment is as Follows:
+      </h3>
+
+      <ul className="list-disc pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Our senior dentist will examine whether you need to undergo fluoride treatment or not.</li>
+        <li>After diagnosis, a detailed report is generated.</li>
+        <li>If your enamel is fit for fluoride treatment, it follows a cleaning procedure.</li>
+        <li>After that, we apply the tray with fluoride concentration unavailable over-the-counter (OTC).</li>
+        <li>We leave the fluoride to set into the enamel for a few minutes.</li>
+        <li>We offer choices in flavors too like grape, mint, and bubble gum.</li>
+        <li>After the concentration settles well, it is gently rinsed off without usage of water.</li>
+        <li>Post this wash, you will have to eat or drink for half hour.</li>
+      </ul>
+    </>
+  ),
+  image:
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766313084/ft1_ujdbse.png",
       },
     ],
   },
@@ -473,25 +638,34 @@ const treatmentsData = [
     image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
     subTreatments: [
       {
-        title: "Conventional Braces",
+        title: "Get Rid of Disadvantages of Crooked Teeth",
         description:
-          "Fixed brackets and archwires are highly effective for complex tooth movements and bite corrections across all age groups.",
+          "Fine Feather Dental offers advanced teeth straightening methods to address crooked teeth, freeing you from embarrassment. Specialised in both children and adult patients, we provide effective solutions for a confident smile.",
         image:
-          "https://images.unsplash.com/photo-1600585154348-1a2b3c4d5e6f",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766312592/teeth3_qqlfry.png",
       },
       {
-        title: "Clear Aligners",
+        title: "We Will Discover Confidence Within You",
         description:
-          "Removable, nearly invisible aligners for mild to moderate alignment issues — comfortable and convenient with predictable staged tooth movement.",
+          "Fine Feather Dental executes the best teeth straightening services under its roof. With a huge team of teeth aligning specialists, we have modified our services to deliver the best to our patients. Our teeth straightening specialist will discover confidence within you by giving you a better smile.",
         image:
-          "https://images.unsplash.com/photo-1588774069612-6b5c4d3e2f1a",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766312592/teeth2_lvgnnr.png",
       },
       {
-        title: "Retention & Follow-up",
-        description:
-          "After active treatment, retainers maintain results; regular follow-ups ensure stability and monitor growth in younger patients.",
-        image:
-          "https://images.unsplash.com/photo-1603398938367-6a5b4c3d2e1f",
+        title: "Why Us?",
+          description: (
+    <>
+      <ul className="list-disc pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Thorough Diagnosis and detailed report by custom software.</li>
+        <li>The full treatment is done by Orthodontist only. During the process of treatment, no general dentist does any braces-related process.</li>
+        <li>Range of treatment options from Fixed Metal Braces to the latest removable transparent braces available.</li>
+        <li>Among few Cling where advanced cases requiring orthognathic surgery can be treated.</li>
+        <li>Interceptive Orthodontics is offered for the manipulation of Jaw growth.</li>
+      </ul>
+    </>
+  ),
+  image:
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766312592/teeth1_r0wz3m.png",
       },
     ],
   },
@@ -502,26 +676,16 @@ const treatmentsData = [
     image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
     subTreatments: [
       {
-        title: "Functional Appliances",
+        title: "Jaw Growth Guidance",
         description:
-          "Removable or fixed appliances (e.g., twin block, Herbst) that encourage favorable mandibular or maxillary growth during growth spurts.",
+        <>
+          <p className="mb-4">Growth Guidance Orthodontic Appliances are designed for airway and habit correction, arch expansion and dental alignment. They provide comprehensive treatment ideally suited to treat children ages 3-12 years.</p>
+          <p>Growth guidance therapy for adults involves gently and safely stimulating the lifelong remodeling potential within the jaws and face. … These include creating room for crowded teeth; development of the face in a forward horizontal direction which improves the appearance of the cheek bones, eyes, nose and lower jaw line.</p>
+        </>
+        ,
         image:
-          "https://images.unsplash.com/photo-1600585154349-2b3c4d5e6f7a",
-      },
-      {
-        title: "Timing & Monitoring",
-        description:
-          "Treatment timing around peak growth yields best skeletal change; regular monitoring ensures effectiveness and minimal side effects.",
-        image:
-          "https://images.unsplash.com/photo-1588774069611-7a6b5c4d3e2f",
-      },
-      {
-        title: "Combined Approaches",
-        description:
-          "Often combined with orthodontics to align teeth and establish a stable bite and facial profile as growth completes.",
-        image:
-          "https://images.unsplash.com/photo-1603398938366-5f4e3d2c1b0a",
-      },
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766312019/Gemini_Generated_Image_m7u8dvm7u8dvm7u8_wstvtb.png",
+      }
     ],
   },
   {
@@ -531,25 +695,52 @@ const treatmentsData = [
     image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
     subTreatments: [
       {
-        title: "When Surgery is Indicated",
+        title: "What Is Orthognathic Surgery?",
         description:
-          "Severe jaw asymmetry, open bite, underbite or functional issues like airway compromise that require skeletal correction rather than tooth movement alone.",
+        <>
+          <p className="mb-4">Orthognathic surgery is one of its kind to cure jaw discrepancies. Jaw discrepancies are commonly seen in many individuals these days. It includes dislocated jaws relatively to the base of skull or malocclusion which in layman’s language means ‘misaligned teeth’. Orthognathic surgery repositions the bite in individuals who have abnormally large discrepancies.</p>
+          <p>Jaw discrepancies may lead to psychological distress as it compromises one’s facial appearance. It causes traumatic bite that damages gums and palate along with unclear speech. Fine Feather’s upgraded orthognathic surgery will renovate your delicate smile by improving your jaw discrepancies.</p>
+        </>
+        ,
         image:
-          "https://images.unsplash.com/photo-1600585154350-3c4d5e6f7a8b",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766311694/oth3_fnlk21.png",
       },
       {
-        title: "Multidisciplinary Protocol",
-        description:
-          "Pre-surgical orthodontics, surgical planning with 3D imaging, precise osteotomies and post-surgical orthodontic finishing for optimal outcomes.",
-        image:
-          "https://images.unsplash.com/photo-1588774069610-1d2c3b4a5e6f",
+        title: "What We Do?",
+        description: (
+    <>
+      <h3 className="font-bold mb-4">
+       Mahi Dental's Orthognathic Surgeons Skillfully Bring Evident Benefits like:
+      </h3>
+
+      <ul className="list-disc pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Improved Oral function</li>
+        <li>Improved Facial appearance</li>
+        <li>Long-term relief from oral health gum problems.</li>
+      </ul>
+    </>
+  ),
+   image:
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766311692/ort1_cc79gh.jpg",
       },
       {
-        title: "Recovery & Results",
-        description:
-          "Initial recovery in weeks; complete healing months. Significant improvements in bite, speech, chewing and facial proportions are typical.",
-        image:
-          "https://images.unsplash.com/photo-1603398938365-4b3a2c1d0e9f",
+        title: "What Our Treatment Involves?",
+        description: (
+    <>
+      <p className="mb-4">
+        Patients suffering from jaw discrepancies are handled by our skilled and experienced team of maxillofacial surgeons, orthodontist as well as a dental practitioner. Initially, a diagnosis is made where the patient is introduced to the maxillofacial surgeon of our multidisciplinary clinic. We frame a customized treatment plan for individual patients depending upon their diagnosis report. Our treatment is precise
+      </p>
+      <h3 className="font-bold">which Includes the Following:</h3>
+      <ul className="list-disc pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Routine examination</li>
+        <li>Plain radiographs</li>
+        <li>Preparing plaster models of the teeth</li>
+        <li>Facial and dental photographs</li>
+        <li>Cephalometrics</li>
+      </ul>
+    </>
+  ),image:
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766311694/ort2_iw574j.png",
       },
     ],
   },
@@ -560,25 +751,40 @@ const treatmentsData = [
     image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
     subTreatments: [
       {
-        title: "Common Habits Addressed",
+        title: "Habit Breaking Appliances",
         description:
-          "Thumb/finger sucking, prolonged pacifier use, tongue thrust and nail biting — appliances plus behavioral techniques provide effective control.",
+          "If you are concerned with teeth sprouting and oral health care in your children, then don’t miss our free paediatric consultation services for your children’s teeth and oral health concerns. Fine Feather’s specialised pedodontists have 2-3 years of training in child dentistry, catering to children’s individual needs. We offer habit-breaking appliances to support their healthy growth and address challenging habits.",
         image:
-          "https://images.unsplash.com/photo-1600585154351-4c5d6e7f8a9b",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766310511/hba13_hjbd0y.png",
       },
       {
-        title: "Types of Appliances",
-        description:
-          "Fixed palatal cribs, bluegrass appliances and habit reminders are customized by age and habit severity for comfortable compliance.",
-        image:
-          "https://images.unsplash.com/photo-1588774069609-2c3b4a5d6e7f",
+         title: "Follow-up & Reinforcement",
+        description: (
+    <>
+      <p className="mb-4">
+        Thumb sucking is a natural reflex for children, but it should stop when
+        their frontal teeth erupt. If it persists, it can lead to:
+      </p>
+
+      <ul className="list-disc pl-5 mt-2 mb-2 text-black leading-relaxed">
+        <li>Decelerated mental growth</li>
+        <li>Improper growth of the mouth</li>
+        <li>Misaligned teeth</li>
+      </ul>
+       <p>
+       At Mahi Dental Dental, our senior pedodontist offers a fixed palatal crib, a customised appliance with stainless steel wires, cemented behind the frontal teeth. This comfortable crib breaks the thumb-sucking habit in a few weeks or months. Reusable if needed, it remains unaffected during eating and is barely visible, ensuring a gradual and successful cure for the habit.
+      </p>
+    </>
+  ),
+   image:
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766310614/Gemini_Generated_Image_ihzml3ihzml3ihzm_ctjny0.png",
       },
       {
-        title: "Follow-up & Reinforcement",
+        title: "Thumbsucking Habit Breaking Appliance",
         description:
-          "Short-term appliance use combined with positive reinforcement, parental involvement and regular review ensures lasting habit change.",
+          "At Mahi Dental Clinic, our senior pedodontist offers a fixed palatal crib, a customised appliance with stainless steel wires, cemented behind the frontal teeth. This comfortable crib breaks the thumb-sucking habit in a few weeks or months. Reusable if needed, it remains unaffected during eating and is barely visible, ensuring a gradual and successful cure for the habit.",
         image:
-          "https://images.unsplash.com/photo-1603398938364-3d2c1b0a9e8f",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766310511/hba12_ql0sum.png",
       },
     ],
   },
@@ -589,25 +795,29 @@ const treatmentsData = [
     image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
     subTreatments: [
       {
-        title: "What are Sealants?",
+        title: "Preventive Sealants",
         description:
-          "Thin plastic coatings bonded to tooth surfaces to block bacteria and food from deep grooves where toothbrush bristles can’t reach.",
+          "Many times brushing and flossing are ineffective in deeply cleaning the teeth depressions and groves. The remnants of food particles in the mouth enhance bacteria thereby dissolving the enamel covering the tooth. We suggest applying sealants soon after the permanent molar eruption in a child, nearly between 6-12 years of age.",
         image:
-          "https://images.unsplash.com/photo-1600585154352-5e6f7a8b9c0d",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766309805/sea1_loytmj.png",
       },
       {
-        title: "Who Should Get Sealants?",
+        title: "What Are Preventive Sealants?",
         description:
-          "Children as soon as permanent molars erupt, plus adults with deep pits and fissures or high caries risk to protect vulnerable surfaces.",
+          "Sealant application is quick and painless, without the need for general anesthesia. The process involves cleaning and conditioning the chewing surface, followed by painting sealants to bind to the enamel. Curing light may be used for faster bonding. Our standardized quality sealants can last 5-6 years. Regular check-ups help us determine if replacements are needed. While we strive to protect your child from gum diseases, parents’ participation in bringing their children for sealant examinations is appreciated. Consult our super-specialized periodontist to determine if sealants are necessary for your child’s oral health.",
         image:
-          "https://images.unsplash.com/photo-1588774069608-1b2c3d4e5f6a",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766309805/sea13_ich2xk.png",
       },
       {
-        title: "Application & Longevity",
+        title: "What Do We Offer?",
         description:
-          "Quick, painless application in a single visit. Sealants last several years with routine checks and can be repaired or replaced as needed.",
+        <>
+          <p className="mb-4">Sealants application doesn’t require injecting of general anaesthesia. It takes a few minutes per tooth to paint sealants. As per the treatment procedure, our professionals will first thoroughly clean the child’s chewing surface and condition it with a peculiar solution that will bind sealants to the enamel. If required we may use “curing” light to hasten the bond. We use standardized quality sealants that may last for 5-6 years.</p>
+          <p className="mb-4">Our dentists will put in their optimum efforts to protect your child from gum diseases. However, we appreciate some participation from parents who bring their children to our clinic for sealant examination at regular intervals as a part of our routine check-ups. This will let us know if any sealants are to be replaced or not!</p>
+          <p className="mb-4">Not every child is required to apply sealants. Consult our super-specialized periodontist today to know whether your child needs sealants or not!</p>
+        </>,
         image:
-          "https://images.unsplash.com/photo-1603398938363-2b1a0c9d8e7f",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766309805/sea12_x4iymj.png",
       },
     ],
   },
