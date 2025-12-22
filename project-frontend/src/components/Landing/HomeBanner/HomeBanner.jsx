@@ -55,11 +55,11 @@ const HomeBanner = () => {
           {/* --- Left Column: Text Content --- */}
             <div className="lg:w-1/2 max-w-lg text-center lg:text-left flex flex-col items-center lg:items-start">
             <h1 className="text-4xl sm:text-5xl  font-bold text-slate-800 leading-tight">
-              Putting Your
-              <span className=" block text-[#88B121]"><strong>Smile First</strong></span>
+              Advanced Dental Care
+              <span className=" block text-[#88B121]"><strong>Trusted Smiles</strong></span>
             </h1>
             <p className="mt-3 text-gray-600 text-lg">
-              Trusted by <span className="font-bold text-gray-800">150000+ Patients</span>
+              Trusted by <span className="font-bold text-gray-800">2000+ Patients</span>
             </p>
 
             <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-3 max-w-sm">
