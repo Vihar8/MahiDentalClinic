@@ -12,13 +12,13 @@ const treatmentsData = [
       title: "Wearing Aligners",
       description:
         "Braces are more than just a beauty boost. They address various issues—open bite, jaw structure, and overcrowding—ensuring proper oral health. Straightened teeth mean improved hygiene, efficient chewing, and reduced periodontal problems. Clear aligners, a popular option, are virtually invisible and perfect for adults seeking discreet orthodontic treatment. No food restrictions, no speech difficulties—just comfort and hygiene, offering confident smiles for all.",
-      image: "/assets/braces.png",
+      image: "https://res.cloudinary.com/dflcuzluo/image/upload/v1766376115/braces_lwjlte.png",
     },
     {
       title: "WHAT ARE CLEAR ALIGNERS??",
       description:
         "When you wear clear aligners, you can smile without it being obvious that you are undergoing orthodontic treatment. What will be obvious is that your smile is looking better. Since the aligners are clear, you can see the position of your teeth. This is a huge benefit because as your teeth become straighter, your appearance will improve, rather than you waiting until the very end to benefit from the changes.",
-      image: "/assets/aligners.png",
+      image: "https://res.cloudinary.com/dflcuzluo/image/upload/v1766376072/aligners_z2dpug.png",
     },
   ],
   },
@@ -37,7 +37,7 @@ const treatmentsData = [
           <p className="mb-4">Since prevention is better than cure, why take a fatal risk when Mahi Dental at your service? Trust us to safeguard your oral health and protect your beautiful smile. Act now and experience painless dental care.</p>
         </>,
         image:
-          "/assets/rootcanal1.png",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766376181/rootcanal1_ijla2j.png",
       },
       {
         title: "Why ‘Painless’?",
@@ -52,14 +52,14 @@ const treatmentsData = [
           </ul>
         </>,
         image:
-          "/assets/rootcanal2.png",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766376283/rootcanal2_ezlv27.png",
       },
       {
         title: "Aftercare & Success",
         description:
           "Post-op care includes short-term pain control and follow-ups. When properly done and restored, root canal treated teeth have a high long-term survival rate.",
         image:
-          "/assets/rootcanal3.jpg",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766376175/rootcanal3_vkxzhx.jpg",
       },
     ],
   },
@@ -74,21 +74,21 @@ const treatmentsData = [
         description:
           "This is basically an artificial tooth root that is placed into your jaw to hold either a single replacement tooth or a multi-tooth bridge or implant supported removable denture or implant supported fixed denture/prosthesis",
         image:
-          "/assets/dentalimplant1.png",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766376265/dentalimplant1_iyswd2.png",
       },
       {
         title: "Benefits of Implants",
         description:
           "Preserve jawbone, restore chewing efficiency, prevent adjacent tooth drifting, and provide a long-term aesthetic solution compared with removable options.",
         image:
-          "/assets/dentalimplant2.png",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766376260/dentalimplant2_w5jp5n.png",
       },
       {
         title: "Treatment Process",
         description:
           "Includes consultation, 3D imaging, surgical placement, healing period for osseointegration, and final prosthetic attachment (crown/bridge/overdenture).",
         image:
-          "/assets/dentalimplant3.png",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766376285/dentalimplant3_e6q6a9.png",
       },
     ],
   },
@@ -111,14 +111,14 @@ const treatmentsData = [
          </ul>
         </>,
         image:
-          "https://images.unsplash.com/photo-1599058917217-1f3b0d3c2f5b",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766379978/denture1_ninka1.png",
       },
       {
         title: "partial Dentures",
         description:
           "When a few or some of the natural teeth still exist, partial dentures are put into action. They can fill gaps of missing teeth as well as stop other teeth to shift their positions. The partial denture includes replacement teeth connected to a plastic base of gum colour. This is further attached to metal clasps to make the denture’s position immovable in the mouth. Instead of metal clasps, precision attachments are also used as they give esthetic look. Also, they are nearly invisible. Partial removable dentures are the least preferred form of tooth/teeth replacement as they cause damage to the underlying bone and eventually give rise to increased ageing looks.",
         image:
-          "https://images.unsplash.com/photo-1588774069624-6d0b8b6b2a66",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766379978/denture3_sss6h1.png",
       },
       {
         title: "who is fit for dentures?",
@@ -128,7 +128,7 @@ const treatmentsData = [
            <p className="mb-4">Getting accustomed to wearing dentures takes time. Hence, new denture wearers may find it difficult and uncomfortable. They may find it to be a little irritating but with the passage of two to three days, you will automatically settle. You may find your speech has become clear and facial expressions have changed. All you need to have is enough patience for dentures to show its real results.</p>
           </>,
         image:
-          "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766379979/denture2_kyqaes.png",
       },
     ],
   },
@@ -155,7 +155,7 @@ const treatmentsData = [
            </ul>
           </>,
         image:
-          "https://images.unsplash.com/photo-1560343090-f0409e92791a",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766382389/dc1_sunlf0.png",
       },
       {
         title: "What are Bridges?",
@@ -180,14 +180,14 @@ const treatmentsData = [
         </ul>
         </>,
         image:
-          "https://images.unsplash.com/photo-1588774069623-5c0a9f8b2e52",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766382390/dc2_gl2rhm.png",
       },
       {
         title: "When to Choose Which",
         description:
           "Crowns for single tooth restoration; bridges when adjacent teeth can serve as reliable supports — implant-supported bridges are preferred for preserving bone.",
         image:
-          "https://images.unsplash.com/photo-1603398938377-8b3d1e2c4f1b",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766382399/vc4_z8xzqf.png",
       },
     ],
 
@@ -206,7 +206,7 @@ const treatmentsData = [
           <p className="mb-4">By restoring all teeth in both upper and lower jaws, this treatment offers a chance to rebuild your smile. Our use of advanced methodologies and technology ensures not only structural restoration but also functional and aesthetically pleasing results for a radiant smile.</p>
         </>,
         image:
-          "https://images.unsplash.com/photo-1603993097397-89b75dec2a3b",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766382437/fmr1_kv2ftk.png",
       },
       {
         title: "Who Qualify For Full Mouth Reconstruction Treatment?",
@@ -221,7 +221,7 @@ const treatmentsData = [
         </ul> 
         </>,
         image:
-          "https://images.unsplash.com/photo-1588774069622-4a1d6d4b3f3a",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766382440/fmr2_lesqwe.png",
       },
       {
         title: "Phased Treatment",
@@ -238,7 +238,7 @@ const treatmentsData = [
         </ul>
         </>,
         image:
-          "https://images.unsplash.com/photo-1600585154337-1d3b2b5b6b2c",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766382448/fmr3_uclxyc.png",
       },
     ],
   },
@@ -256,14 +256,14 @@ const treatmentsData = [
           <p>However, children often perceive dental treatments as painful and fear visiting the dentist, despite their friendliness. What young kids desire is a painless experience with a friendly doctor. We at Mahi Dental Clinic create an enjoyable environment, ensuring kids feel comfortable and eager to return for their dental visits.</p>
         </>,
         image:
-          "https://images.unsplash.com/photo-1607746882043-1b5f2a2a3b1c",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766382654/cd1_xzwgyz.png",
       },
       {
         title: "Why Choose Us?",
         description:
           "At Mahi Dental, our focus is on children dentistry, providing painless treatments for your little ones. Our clinics house experienced pedodontists who excel in handling challenges with utmost skill. Our compassionate team of endodontists ensures special care for every child. Friendliness comes naturally to each of our children dentistry specialists, creating a personal and comforting experience for your kids.",
         image:
-          "https://images.unsplash.com/photo-1588776814549-7b2e3c4d5f6a",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766382654/cd3_sbdb5i.png",
       },
       {
         title: "What Is Child Dentistry?",
@@ -282,7 +282,7 @@ const treatmentsData = [
          <p>At Mahi Dental Clinic, our dedicated team of paediatric specialists ensures gentle, compassionate, and child-friendly care to make each visit a positive and comfortable experience for young patients.</p>
         </>,
         image:
-          "https://images.unsplash.com/photo-1603398938376-5c1d2b3a4e5f",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766382653/cd2_pbcggh.png",
       },
     ],
   },
@@ -313,7 +313,7 @@ const treatmentsData = [
     </>
   ),
         image:
-          "https://images.unsplash.com/photo-1603398938371-0a1b2c3d4e5f",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766384274/tw1_knq9ub.png",
       },
       {
         title: "Why Us?",
@@ -337,7 +337,7 @@ const treatmentsData = [
           <p>Apart from these regular teeth whitening practices that are seen almost in every dental clinic, our following advanced techniques make us different from others.</p>
         </>,
         image:
-          "https://images.unsplash.com/photo-1600585154341-3b4c5d6e7f8a",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766384283/tw2_vp9l0l.png",
       },
       {
         title: "",
@@ -365,7 +365,7 @@ const treatmentsData = [
     </>
   ),
   image:
-          "https://images.unsplash.com/photo-1603398938371-0a1b2c3d4e5f",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766384275/tw3_v9xuez.png",
       },
     ],
   },
@@ -383,21 +383,21 @@ const treatmentsData = [
         <p className="mb-4">Veneers come in a variety of materials however choosing the best type of veneers for your type of teeth can be challenging without an expert’s advice. Mahi Dental Clinic is a specialized veneer installing center. We will guide you through which veneer material will suit the best to your teeth type.</p>
         </>,
         image:
-          "https://images.unsplash.com/photo-1600585154338-2a3b4c5d6e7f",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766382406/vc1_ljvqte.png",
       },
       {
         title: "What are Componeer?",
         description:
           "These are instant veneers. The components are placed on the teeth in a single sitting. So there is no need to have multiple to a Dentist. Moreover, instant veneers are cheaper than conventional veneers and also have a long warranty. These are a new leap in technology has made veneers affordable and long-lasting.",
         image:
-          "https://images.unsplash.com/photo-1588774069619-1c2b3a4d5e6f",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766382402/vc2_zovage.png",
       },
       {
         title: "Why Choose Veneers As A Treatment?",
         description:
           "Science and technology always search for invasive treatments that cause less trouble and cost to a patient. Since missing of a natural tooth is a permanent phenomenon, cosmetic alterations have been made to offer ultimate treatment. Veneer treatment is particularly for those who have dull or ill colored teeth. Installing veneers on the teeth surface enhance facial integrity, smile and confidence. This treatment has an added advantage of longevity too.",
         image:
-          "https://images.unsplash.com/photo-1603398938374-6a7b8c9d0e1f",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766382429/porcelainveneer_kcfwcl.png",
       },
       {
         title: "What do we Offer?",
@@ -419,7 +419,7 @@ const treatmentsData = [
     </>
   ),
   image:
-          "https://images.unsplash.com/photo-1603398938371-0a1b2c3d4e5f",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766382433/directcomponeer_gsgbda.png",
       },
       {
         title: "Our Treatment",
@@ -432,7 +432,7 @@ Mahi Dental renders out standing veneers services. Our veneers clinic house ever
     </>
   ),
   image:
-          "https://images.unsplash.com/photo-1603398938371-0a1b2c3d4e5f",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766382430/vc3_zojnk2.png",
       },
     ],
   },
@@ -542,14 +542,14 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
         description:
           "When a tooth gets partially damaged, decayed or worn out, then that partially ruined part is tooth by a dentist and called a filling. Fillings restore the tooth to its initial shape and size. Dental fillings are used when you want to prevent the tooth to decay from any further decaying/damaging.",
         image:
-          "https://images.unsplash.com/photo-1600585154342-5a6b7c8d9e0f",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766384545/d5a06fcb-b0ed-4281-926f-ae89edfb0031_cohitd.png",
       },
       {
         title: "what is inlays and onlays?",
         description:
           "Inlays and onlays are an alternative to fillings. They are far better in longevity as compared to fillings. Inlays and onlays are extremely comfortable while large repairs of frontal teeth or chewing textures of back teeth. They can be made from resin or porcelain. An inlay fits itself in the tooth hole while onlays will automatically build its shape like a tooth.",
         image:
-          "https://images.unsplash.com/photo-1588774069618-4b3c2d1e5f6a",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766384905/inon_ze5wcc.png",
       },
     ],
   },

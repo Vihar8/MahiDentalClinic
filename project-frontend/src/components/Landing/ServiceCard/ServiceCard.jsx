@@ -9,62 +9,62 @@ const [showAll, setShowAll] = useState(false);
 const allServices = [
     {
       id: 1,
-      title: 'Braces',
-      image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=400&h=300&fit=crop',
+      title: 'Braces and Aligners',
+      image: 'https://res.cloudinary.com/dflcuzluo/image/upload/v1766376115/braces_lwjlte.png',
       path: "/our-services/braces-aligners"
     },
     {
       id: 2,
       title: 'Painless Root Canal',
-      image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dflcuzluo/image/upload/v1766376283/rootcanal2_ezlv27.png',
       path: "/our-services/painless-root-canal"
     },
     {
       id: 3,
       title: 'Dental Implant',
-      image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dflcuzluo/image/upload/v1766376265/dentalimplant1_iyswd2.png',
     path: "/our-services/dental-implant"
     },
     {
       id: 4,
       title: 'Denture',
-      image: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dflcuzluo/image/upload/v1766379978/denture1_ninka1.png',
       path: "/our-services/denture"
     },
     {
       id: 5,
       title: 'Crowns & Bridges',
-      image: 'https://tse4.mm.bing.net/th/id/OIP.bIhq2aWdleud7_JXvy5pRAHaEl?pid=Api&P=0&h=180',
+      image: 'https://res.cloudinary.com/dflcuzluo/image/upload/v1766382389/dc1_sunlf0.png',
        path: "/our-services/crowns-bridges"
     },
     {
       id: 6,
       title: 'Full Mouth Reconstruction',
-      image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dflcuzluo/image/upload/v1766382437/fmr1_kv2ftk.png',
       path: "/our-services/full-mouth-reconstruction"
     },
     {
       id: 7,
       title: 'Children Dentistry',
-      image: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dflcuzluo/image/upload/v1766382654/cd1_xzwgyz.png',
        path: "/our-services/children-dentistry"
     },
     {
       id: 8,
       title: 'Teeth Whitening',
-      image: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dflcuzluo/image/upload/v1766382430/vc3_zojnk2.png',
       path: "/our-services/teeth-whitening"
     },
-    {
-      id: 9,
-      title: 'Aligners',
-      image: 'https://images.unsplash.com/photo-1609840112855-9ab5ad8f66e4?w=400&h=300&fit=crop',
-       path: "/our-services/veneer-componeers"
-    },
+    // {
+    //   id: 9,
+    //   title: 'Aligners',
+    //   image: 'https://images.unsplash.com/photo-1609840112855-9ab5ad8f66e4?w=400&h=300&fit=crop',
+    //    path: "/our-services/veneer-componeers"
+    // },
     {
       id: 10,
       title: 'Veneer and Componeers',
-      image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dflcuzluo/image/upload/v1766382406/vc1_ljvqte.png',
        path: "/our-services/veneer-componeers"
     },
     {
@@ -76,19 +76,19 @@ const allServices = [
     {
       id: 12,
       title: 'Gum disease Treatment',
-      image: 'https://tse1.mm.bing.net/th/id/OIP.9IAWIHqPSctjL7IJw2yB5wHaE8?pid=Api&P=0&h=180',
+      image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766316555/11_dq1ua4.png',
        path: "/our-services/gum-disease"
     },
     {
       id: 13,
       title: 'Gum depigmentation and Gum Contouring',
-      image: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766315721/gdc1_j5lvlz.png',
       path: "/our-services/gum-depigmentation-and-gum-contouring"
     },
     {
       id: 14,
       title: 'Fillings, Inlays and Onlays',
-      image: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dflcuzluo/image/upload/v1766384905/inon_ze5wcc.png',
        path: "/our-services/fillings-inlays-and-onlays"
     },
     {
@@ -100,43 +100,43 @@ const allServices = [
     {
       id: 16,
       title: 'Gum repositioning Surgery',
-      image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766313669/ggs12_eobqtm.png',
       path: "/our-services/gum-repositioning-surgery"
     },
     {
       id: 17,
       title: 'Teeth Straightening',
-      image: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766312592/teeth2_lvgnnr.png',
       path: "/our-services/teeth-straightening"
     },
     {
       id: 18,
       title: 'Jaw Growth Guidance',
-      image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766312019/Gemini_Generated_Image_m7u8dvm7u8dvm7u8_wstvtb.png',
       path: "/our-services/jaw-growth-guidance",
     },
     {
       id: 19,
       title: 'Orthognathic Surgery',
-      image: 'https://www.finefeather.in/wp-content/uploads/2022/11/19-1.jpg',
+      image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766311692/ort1_cc79gh.jpg',
       path: "/our-services/orthognathic-surgery",
     },
     {
       id: 20,
       title: 'Flouride Treatment',
-      image: 'https://images.unsplash.com/photo-1598256989800-fe5f95da9787?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766313084/fl2_eikyhq.png',
       path: "/our-services/flouride-treatment"
     },
     {
       id: 21,
       title: 'Preventive Sealants',
-      image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766309805/sea1_loytmj.png',
       path: "/our-services/preventive-sealants",
     },
     {
       id: 22,
       title: 'Habit Breaking Appliances',
-      image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766310511/hba13_hjbd0y.png',
       path: "/our-services/habit-breaking-appliances"
     }
   ];

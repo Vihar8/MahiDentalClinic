@@ -49,7 +49,7 @@ const TreatmentPage = () => {
 
               {/* Text */}
               <div className="flex-1">
-                <h2 className="text-[#88b121] font-bold text-xl mb-4 uppercase">
+                <h2 className="text-[#88b121] font-bold text-2xl mb-4 uppercase">
                   {sub.title}
                 </h2>
                 <p className="text-black leading-relaxed">{sub.description}</p>

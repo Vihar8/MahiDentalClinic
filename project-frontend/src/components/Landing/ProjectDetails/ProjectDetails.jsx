@@ -138,7 +138,7 @@ const FAQSection = () => {
               Ready For A Cleaner, <br /> Happier Teeth?
             </div>
             <p className="mt-2 text-base max-w-md mx-auto lg:mx-0">
-              Book today and discover why families trust Maahi Dental Clinic for spotless teeth.
+              Book today and discover why families trust Mahi Dental Clinic for spotless teeth.
             </p>
             <div className="mt-6">
                <a
@@ -150,14 +150,14 @@ const FAQSection = () => {
             </div>
           </div>
           <div className="flex-1 flex justify-center gap-6 ">
-            <div className="w-32 h-32 md:w-44 md:h-44 rounded-xl overflow-hidden">
+            <div className="w-44 h-44 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-2xl overflow-hidden">
               <img
-                src="https://www.finefeather.in/wp-content/uploads/2023/07/patient.webp"
+                src="https://res.cloudinary.com/dflcuzluo/image/upload/v1766382430/vc3_zojnk2.png"
                 alt="Cleaner left"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="w-32 h-32 md:w-44 md:h-44 rounded-xl overflow-hidden">
+            <div className="w-44 h-44 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-2xl overflow-hidden">
               <img
                 src="https://www.finefeather.in/wp-content/uploads/2022/11/Screening-Test.jpg"
                 alt="Cleaner right"
