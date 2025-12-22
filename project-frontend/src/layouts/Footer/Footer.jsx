@@ -4,7 +4,6 @@ import Container from "../../commoncomponents/Container/Container";
 import NavigationMenu from "./NavigationMenu/NavigationMenu";
 import { Grid } from "@mui/material";
 import footerlogo from "/assets/mahi_dental_logo.jpg";
-import emailIcon from "/assets/icons/emailIcon.svg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
