@@ -55,86 +55,80 @@ const allServices = [
       image: 'https://res.cloudinary.com/dflcuzluo/image/upload/v1766382430/vc3_zojnk2.png',
       path: "/our-services/teeth-whitening"
     },
-    // {
-    //   id: 9,
-    //   title: 'Aligners',
-    //   image: 'https://images.unsplash.com/photo-1609840112855-9ab5ad8f66e4?w=400&h=300&fit=crop',
-    //    path: "/our-services/veneer-componeers"
-    // },
     {
-      id: 10,
+      id: 9,
       title: 'Veneer and Componeers',
       image: 'https://res.cloudinary.com/dflcuzluo/image/upload/v1766382406/vc1_ljvqte.png',
        path: "/our-services/veneer-componeers"
     },
     {
-      id: 11,
+      id: 10,
       title: 'TMJ Disorder',
-      image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=400&h=300&fit=crop',
+      image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766393098/Gemini_Generated_Image_uu0k9nuu0k9nuu0k_b372hm.png',
       path: "/our-services/tmj-disorder"
     },
     {
-      id: 12,
+      id: 11,
       title: 'Gum disease Treatment',
       image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766316555/11_dq1ua4.png',
        path: "/our-services/gum-disease"
     },
     {
-      id: 13,
+      id: 12,
       title: 'Gum depigmentation and Gum Contouring',
       image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766315721/gdc1_j5lvlz.png',
       path: "/our-services/gum-depigmentation-and-gum-contouring"
     },
     {
-      id: 14,
+      id: 13,
       title: 'Fillings, Inlays and Onlays',
       image: 'https://res.cloudinary.com/dflcuzluo/image/upload/v1766384905/inon_ze5wcc.png',
        path: "/our-services/fillings-inlays-and-onlays"
     },
     {
-      id: 15,
+      id: 14,
       title: 'Jaw Bone Regeneration',
       image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=400&h=300&fit=crop',
       path: "/our-services/jaw-bone-regenration"
     },
     {
-      id: 16,
+      id: 15,
       title: 'Gum repositioning Surgery',
       image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766313669/ggs12_eobqtm.png',
       path: "/our-services/gum-repositioning-surgery"
     },
     {
-      id: 17,
+      id: 16,
       title: 'Teeth Straightening',
       image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766312592/teeth2_lvgnnr.png',
       path: "/our-services/teeth-straightening"
     },
     {
-      id: 18,
+      id: 17,
       title: 'Jaw Growth Guidance',
       image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766312019/Gemini_Generated_Image_m7u8dvm7u8dvm7u8_wstvtb.png',
       path: "/our-services/jaw-growth-guidance",
     },
     {
-      id: 19,
+      id: 18,
       title: 'Orthognathic Surgery',
       image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766311692/ort1_cc79gh.jpg',
       path: "/our-services/orthognathic-surgery",
     },
     {
-      id: 20,
+      id: 19,
       title: 'Flouride Treatment',
       image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766313084/fl2_eikyhq.png',
       path: "/our-services/flouride-treatment"
     },
     {
-      id: 21,
+      id: 20,
       title: 'Preventive Sealants',
       image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766309805/sea1_loytmj.png',
       path: "/our-services/preventive-sealants",
     },
     {
-      id: 22,
+      id: 21,
       title: 'Habit Breaking Appliances',
       image: 'https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766310511/hba13_hjbd0y.png',
       path: "/our-services/habit-breaking-appliances"

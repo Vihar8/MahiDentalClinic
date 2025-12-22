@@ -3,36 +3,12 @@ import { lazy } from "react";
 import Loadable from "../commoncomponents/Loadable/Loadable";
 import Layout from "../layouts/Layout";
 import GuestGuard from "../utils/GuestGuard";
-import ForgotPassword from "../pages/ForgotPassword";
-import ContactsUs from "../components/AboutPages/ContactsUs";
-import AppointmentPage from "../pages/AppointmentPage";
-import Gallery from "../pages/Gallery";
-import AboutUs from "../components/AboutPages/AboutUs";
+const Gallery = Loadable(lazy(() => import("../pages/Gallery")));
+const ContactsUs = Loadable(lazy(() => import("../components/AboutPages/ContactsUs")));
+const AboutUs = Loadable(lazy(() => import("../components/AboutPages/AboutUs")));
 const Landing = Loadable(lazy(() => import("../pages/Landing")));
-const Login = Loadable(lazy(() => import("../pages/Login")));
-const PlantDetails = Loadable(lazy(() => import("../pages/PlantDetails")));
-const SubscriberLogin = Loadable(
-  lazy(() => import("../pages/SubscriberLogin"))
-);
-const PanVerification = Loadable(
-  lazy(() => import("../components/Project/PanVerification/PanVerification"))
-);
-const AddDiscom = Loadable(
-  lazy(() => import("../components/Project/AddDiscom/AddDiscom"))
-);
-const ProjectCapacity = Loadable(
-  lazy(() => import("../components/Project/ProjectCapacity/ProjectCapacity"))
-);
+const AppointmentPage = Loadable(lazy(() => import("../pages/AppointmentPage")));
 const TreatmentPage = Loadable(lazy(() => import("../pages/TreatmentPage")));
-const PlantOwnerRegistration = Loadable(
-  lazy(
-    () =>
-      import(
-        "../components/Registration/PlantOwnerRegistration/PlantOwnerRegistration"
-      )
-  )
-);
-
 const PublicRoutes = {
   path: "/",
   element: (
@@ -45,10 +21,6 @@ const PublicRoutes = {
     {
       path: "",
       element: <Landing />,
-    },
-    {
-      path: "/login",
-      element: <Login />,
     },
      {
       path: "/appointmentpage",
@@ -66,46 +38,10 @@ const PublicRoutes = {
       path: "/aboutus",
       element: <AboutUs />,
     },
-    // {
-    //   path: "/project",
-    //   element: <Project />,
-    // },
     {
       path: "/our-services/:id",
       element: <TreatmentPage />,
-    },
-    {
-      path: "/plantdetails",
-      element: <PlantDetails />,
-    },
-    {
-      path: "/subscriberlogin",
-      element: <SubscriberLogin />,
-    },
-    {
-      path: "/verify-pan",
-      element: <PanVerification />,
-    },
-    {
-      path: "/add-discom",
-      element: <AddDiscom />,
-    },
-    // {
-    //   path: "/project-summary",
-    //   element: <ProjectSummary />,
-    // },
-    {
-      path: "/project-capacity",
-      element: <ProjectCapacity />,
-    },
-    {
-      path: "/registration",
-      element: <PlantOwnerRegistration />,
-    },
-    {
-      path: "/forgotpassword",
-      element: <ForgotPassword />,
-    },
+    }
   ],
 };
 

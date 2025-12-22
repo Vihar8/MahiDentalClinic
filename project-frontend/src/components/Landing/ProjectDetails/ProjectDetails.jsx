@@ -1,16 +1,3 @@
-// import React from "react";
-// import classes from "../../Landing/Landing.module.scss";
-
-// function ProjectDetails() {
-//   return (
-//     <>
-//      <p>section 4</p>
-//     </>
-//   );
-// }
-
-// export default ProjectDetails;
-
 import React, { useState } from "react";
 
 const faqs = [
@@ -46,14 +33,14 @@ const FAQSection = () => {
 
   return (
     <section className="bg-[#88B121] py-16 px-6 md:px-20">
-      <div className="max-w-4xl mx-auto flex flex-col items-center gap-4">
-        <div className="inline-block bg-[#e6f1fb] text-[#88b121] text-xs font-bold px-4 py-2 rounded-full mb-1 shadow">
+      <div className="max-w-6xl mx-auto flex flex-col items-center gap-4">
+        <div className="inline-block bg-[#e6f1fb] text-[#88b121] text-md font-bold px-4 py-2 rounded-full mb-1 shadow">
           FAQ
         </div>
         <h2 className="text-3xl text-[#833100] font-bold text-center">
           Got Questions?
         </h2>
-        <p className="text-[#833100] text-center">
+        <p className="text-white text-xl text-center">
           We’ve got answers to your most common cleaning concerns.
         </p>
 

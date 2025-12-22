@@ -446,7 +446,7 @@ Mahi Dental renders out standing veneers services. Our veneers clinic house ever
       title: "What is ‘TMJ’?",
       description:
         "The temporomandibular joint is the pivot joint that hooks up the lower jaw with the skull’s temporal bone. These joints regulate jaw movement. The jaw can smoothly make up-down and side to side movements along with enabling a person to chew, yawn or talk. There are muscles around the jaw joint too. These muscles control jaw position and movement.",
-      image: "https://www.finefeather.in/wp-content/uploads/2022/10/service-img-627x410.jpg",
+      image: "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766393079/Gemini_Generated_Image_16w6zr16w6zr16w6_xjbp6n.png",
     },
     {
       title: "what is ‘TMJ’ disorder?",
@@ -469,7 +469,7 @@ Mahi Dental renders out standing veneers services. Our veneers clinic house ever
       </ul>
     </>
   ),
-  image: "https://www.finefeather.in/wp-content/uploads/2022/11/05-2.jpg",
+  image: "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766393098/Gemini_Generated_Image_uu0k9nuu0k9nuu0k_b372hm.png",
     },
     {
       title: "WHY US?",
@@ -485,7 +485,7 @@ Mahi Dental renders out standing veneers services. Our veneers clinic house ever
      TMJ pain is mostly temporary but if not taken care of then it can progress to headache, back ache & lower back muscle also.</p>
     </>
   ),
-  image: "https://www.finefeather.in/wp-content/uploads/2022/11/02-3-600x350.jpg",
+  image: "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766393061/Gemini_Generated_Image_azlmw7azlmw7azlm_igd6d7.png",
     },
      {
       title: "Conservative Treatments",
@@ -509,7 +509,7 @@ Mahi Dental renders out standing veneers services. Our veneers clinic house ever
       </ul>
       </>
   ),
-  image: "https://www.finefeather.in/wp-content/uploads/2022/11/02-3-600x350.jpg",
+  image: "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766313084/ft1_ujdbse.png",
     },
      {
       title: "Invasive Treatments",
@@ -527,7 +527,7 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
       
       </>
   ),
-  image: "https://www.finefeather.in/wp-content/uploads/2022/11/02-3-600x350.jpg",
+  image: "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766316555/11_dq1ua4.png",
     },
   ],
 },
@@ -872,7 +872,7 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
         </>
         ,
         image:
-          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766311694/oth3_fnlk21.png",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766392494/oth3_fnlk21.png",
       },
       {
         title: "What We Do?",
@@ -909,7 +909,7 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
       </ul>
     </>
   ),image:
-          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766311694/ort2_iw574j.png",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766392509/ort2_iw574j.png",
       },
     ],
   },
@@ -924,7 +924,7 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
         description:
           "If you are concerned with teeth sprouting and oral health care in your children, then don’t miss our free paediatric consultation services for your children’s teeth and oral health concerns. Mahi Dental Clinic’s specialised pedodontists have 2-3 years of training in child dentistry, catering to children’s individual needs. We offer habit-breaking appliances to support their healthy growth and address challenging habits.",
         image:
-          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766310511/hba13_hjbd0y.png",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766392440/hba13_hjbd0y.png",
       },
       {
          title: "Follow-up & Reinforcement",
@@ -946,14 +946,14 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
     </>
   ),
    image:
-          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766310614/Gemini_Generated_Image_ihzml3ihzml3ihzm_ctjny0.png",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766392480/Gemini_Generated_Image_ihzml3ihzml3ihzm_ctjny0.png",
       },
       {
         title: "Thumbsucking Habit Breaking Appliance",
         description:
           "At Mahi Dental Clinic, our senior pedodontist offers a fixed palatal crib, a customised appliance with stainless steel wires, cemented behind the frontal teeth. This comfortable crib breaks the thumb-sucking habit in a few weeks or months. Reusable if needed, it remains unaffected during eating and is barely visible, ensuring a gradual and successful cure for the habit.",
         image:
-          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766310511/hba12_ql0sum.png",
+          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766392461/hba12_ql0sum.png",
       },
     ],
   },

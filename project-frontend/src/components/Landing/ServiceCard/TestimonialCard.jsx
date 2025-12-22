@@ -29,7 +29,7 @@ const ReviewCarousel = () => {
     {
       name: "Mausam Sharma",
       imgUrl:
-        "https://www.freepik.com/premium-vector/modern-dr-logo-icon-vector_364014244.htm",
+        "https://static.vecteezy.com/system/resources/previews/019/896/008/original/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.png",
       date: "a week ago",
       text: "I had a wonderful experience at Clinic! The staff were friendly and professional, making me feel comfortable from start to finish. Special thanks to the lady dentist —Zalak Sharma. she was absolutely amazing! Very gentle, caring, and thorough in explaining everything. I felt confident in her skills and appreciated her warm approach. Highly recommend this clinic for anyone looking for quality dental care with compassionate staff!",
     },

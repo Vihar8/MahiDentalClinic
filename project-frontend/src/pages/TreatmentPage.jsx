@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import treatmentsData from "./treatmentsData.jsx";
 import ServiceCard from "../components/Landing/ServiceCard/ServiceCard";
+import TestimonialCard from "../components/Landing/ServiceCard/TestimonialCard.jsx";
 
 const TreatmentPage = () => {
   const navigate = useNavigate();
@@ -61,6 +62,7 @@ const TreatmentPage = () => {
           ))}
       </div>
       <ServiceCard />
+      <TestimonialCard />
     </div>
   );
 };
