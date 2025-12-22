@@ -253,7 +253,7 @@ const treatmentsData = [
         description:
         <>
           <p className="mb-4">Children’s dental care requires gentle handling due to their delicate gums and jaws. An experienced pedodontist is necessary to manage their oral health effectively. Regular dental checks are advisable to monitor jaw development for up to 12 months. Preventive care for early teeth is essential to teach proper dental care habits.</p>
-          <p>However, children often perceive dental treatments as painful and fear visiting the dentist, despite their friendliness. What young kids desire is a painless experience with a friendly doctor. We at Fine Feather dental create an enjoyable environment, ensuring kids feel comfortable and eager to return for their dental visits.</p>
+          <p>However, children often perceive dental treatments as painful and fear visiting the dentist, despite their friendliness. What young kids desire is a painless experience with a friendly doctor. We at Mahi Dental Clinic create an enjoyable environment, ensuring kids feel comfortable and eager to return for their dental visits.</p>
         </>,
         image:
           "https://images.unsplash.com/photo-1607746882043-1b5f2a2a3b1c",
@@ -279,7 +279,7 @@ const treatmentsData = [
           <li><b>Managing Children Habits:</b>We offer habit-breaking instruments to promote healthy dental care, using children’s favourite flavours in our appliances.</li>
           <li><b>Orthodontic Treatment:</b>We provide fluoride prophylaxis and use Pedo-RCT (Pulpotomy, Pulpectomy) for painless anaesthesia during treatment.</li>
          </ul>
-         <p>At Fine Feather Dental, our dedicated team of paediatric specialists ensures gentle, compassionate, and child-friendly care to make each visit a positive and comfortable experience for young patients.</p>
+         <p>At Mahi Dental Clinic, our dedicated team of paediatric specialists ensures gentle, compassionate, and child-friendly care to make each visit a positive and comfortable experience for young patients.</p>
         </>,
         image:
           "https://images.unsplash.com/photo-1603398938376-5c1d2b3a4e5f",
@@ -319,7 +319,7 @@ const treatmentsData = [
         title: "Why Us?",
         description:
         <>
-          <p className="mb-4">Discover celebrity-worthy smiles at Fine Feather Dental! Our teeth whitening services unveil astonishing smiles, boosting your confidence. Say goodbye to discolored teeth and hide no more. Our teeth whitening clinic render our patients with:</p>
+          <p className="mb-4">Discover celebrity-worthy smiles at Mahi Dental Clinic! Our teeth whitening services unveil astonishing smiles, boosting your confidence. Say goodbye to discolored teeth and hide no more. Our teeth whitening clinic render our patients with:</p>
           <ul className="list-disc space-y-2 pl-5 mb-4">
             <li>Boosted confidence.</li>
             <li>Boastful smile.</li>
@@ -380,7 +380,7 @@ const treatmentsData = [
         description:
         <>
         <p className="mb-4">Dental veneers are customized tooth-colored shells designed to cover the frontal region of teeth to give an improvised appearance. They are often known as porcelain veneers or porcelain laminates. These shells vary in color, shape, length, and size but are generally wafer-thin. They are fastened to the frontal portion of the teeth.</p>
-        <p className="mb-4">Veneers come in a variety of materials however choosing the best type of veneers for your type of teeth can be challenging without an expert’s advice. Fine Feather Dental is a specialized veneer installing center. We will guide you through which veneer material will suit the best to your teeth type.</p>
+        <p className="mb-4">Veneers come in a variety of materials however choosing the best type of veneers for your type of teeth can be challenging without an expert’s advice. Mahi Dental Clinic is a specialized veneer installing center. We will guide you through which veneer material will suit the best to your teeth type.</p>
         </>,
         image:
           "https://images.unsplash.com/photo-1600585154338-2a3b4c5d6e7f",
@@ -479,7 +479,7 @@ Mahi Dental renders out standing veneers services. Our veneers clinic house ever
      Sometimes the pain vanishes with little treatment; however, if TMJ Disorder specialist is not consulted it may lead to long-term problems. </p>
      
       <p className="mb-4">
-    Fine Feather Dental has distinctly skilled TMJ Disorder specialists who are capable of removing your ora-facial pain. </p>
+    Mahi Dental Clinic has distinctly skilled TMJ Disorder specialists who are capable of removing your ora-facial pain. </p>
      
       <p className="mb-4">
      TMJ pain is mostly temporary but if not taken care of then it can progress to headache, back ache & lower back muscle also.</p>
@@ -581,7 +581,7 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
           description: (
     <>
       <p className="mb-4">
-      Fine Feather’s Jaw Bone Regeneration services are a must due to the following compelling reasons:
+      Mahi Dental Clinic’s Jaw Bone Regeneration services are a must due to the following compelling reasons:
       </p>
 
       <ul className="list-disc pl-5 mt-2 mb-2 text-black leading-relaxed">
@@ -612,7 +612,7 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
       {
         title: "Gum Disease Treatment",
         description:
-          "Gum diseases can range from ordinary inflammation to severe damage, making it crucial to consult an expert periodontist to prevent tooth loss. Neglecting oral hygiene leads to the formation of sticky, colourless plaque, which can be removed through regular brushing and flossing. However, if plaque is not removed within 24 hours, it hardens into tartar, which brushing alone cannot eliminate. Fine Feather Dental clinic’s experienced professionals skillfully remove tartar, ensuring oral health and preserving your dazzling smile.",
+          "Gum diseases can range from ordinary inflammation to severe damage, making it crucial to consult an expert periodontist to prevent tooth loss. Neglecting oral hygiene leads to the formation of sticky, colourless plaque, which can be removed through regular brushing and flossing. However, if plaque is not removed within 24 hours, it hardens into tartar, which brushing alone cannot eliminate. Mahi Dental Clinic’s experienced professionals skillfully remove tartar, ensuring oral health and preserving your dazzling smile.",
         image:
           "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766316555/11_dq1ua4.png",
       },
@@ -669,7 +669,7 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
       {
         title: "What Is Gum Depigmentation?",
         description:
-          "Cosmetic dentistry, a growing trend, includes gum depigmentation surgery to remove melanin-induced gum patches or stains. Fine Feather is a renowned clinic in India, offering affordable services for minor and major gum issues. Our expert team customises treatments after clinical assessments, utilising surgical, chemical, or laser ablation methods. With upgraded gum bleaching techniques, our unbeatable services are accessible to all at reasonable rates. Explore our jam-packed techniques for a flawless smile.",
+          "Cosmetic dentistry, a growing trend, includes gum depigmentation surgery to remove melanin-induced gum patches or stains. Mahi Dental Clinic is a renowned clinic in India, offering affordable services for minor and major gum issues. Our expert team customises treatments after clinical assessments, utilising surgical, chemical, or laser ablation methods. With upgraded gum bleaching techniques, our unbeatable services are accessible to all at reasonable rates. Explore our jam-packed techniques for a flawless smile.",
         image:
           "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766315726/gdc_z6ctfb.png",
       },
@@ -726,7 +726,7 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
       {
         title: "Gum Repositioning Surgery",
         description:
-          "Fine Feather Dental can give you the stunning celebrity smile you desire. With advanced gum repositioning surgical machines, we resolve gum problems instantly. As one of the largest dental care chains in the country, we offer unbeatable painless dental surgeries by professional orthodontists available 24/7. We ensure state-of-the-art equipment and a comprehensive range of services available under one roof for your holistic oral care., Fine Feather aims to provide rapid and long-lasting results for a confident smile. Get rid of that gummy smile and maintain your delicate smile at Fine Feather Dental.",
+          "Mahi Dental Clinic can give you the stunning celebrity smile you desire. With advanced gum repositioning surgical machines, we resolve gum problems instantly. As one of the largest dental care chains in the country, we offer unbeatable painless dental surgeries by professional orthodontists available 24/7. We ensure state-of-the-art equipment and a comprehensive range of services available under one roof for your holistic oral care., Mahi Dental Clinic aims to provide rapid and long-lasting results for a confident smile. Get rid of that gummy smile and maintain your delicate smile at Mahi Dental Clinic.",
         image:
           "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766313669/ggs1_ubtfkc.png",
       },
@@ -764,7 +764,7 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
       {
         title: "Flouride Treatment",
         description:
-          "Fine Feather Dental’s fluoride treatment for kids is becoming increasingly popular.. Fluoride treatment is not an uncommon activity in other dentistry. It is one of the oldest treatments offered by almost all dentists. It includes a bubble-gum flavoured polish for children’s teeth. However, how this treatment will have its impact on you, how it will protect your teeth from washing off and whether it is safe or not will be explained by our expert professionals nowhere but at Fine Feather Dental only!",
+          "Mahi Dental Clinic’s fluoride treatment for kids is becoming increasingly popular.. Fluoride treatment is not an uncommon activity in other dentistry. It is one of the oldest treatments offered by almost all dentists. It includes a bubble-gum flavoured polish for children’s teeth. However, how this treatment will have its impact on you, how it will protect your teeth from washing off and whether it is safe or not will be explained by our expert professionals nowhere but at Mahi Dental Clinic only!",
         image:
           "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766313084/fl3_x0bskn.png",
       },
@@ -809,14 +809,14 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
       {
         title: "Get Rid of Disadvantages of Crooked Teeth",
         description:
-          "Fine Feather Dental offers advanced teeth straightening methods to address crooked teeth, freeing you from embarrassment. Specialised in both children and adult patients, we provide effective solutions for a confident smile.",
+          "Mahi Dental Clinic offers advanced teeth straightening methods to address crooked teeth, freeing you from embarrassment. Specialised in both children and adult patients, we provide effective solutions for a confident smile.",
         image:
           "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766312592/teeth3_qqlfry.png",
       },
       {
         title: "We Will Discover Confidence Within You",
         description:
-          "Fine Feather Dental executes the best teeth straightening services under its roof. With a huge team of teeth aligning specialists, we have modified our services to deliver the best to our patients. Our teeth straightening specialist will discover confidence within you by giving you a better smile.",
+          "Mahi Dental Clinic executes the best teeth straightening services under its roof. With a huge team of teeth aligning specialists, we have modified our services to deliver the best to our patients. Our teeth straightening specialist will discover confidence within you by giving you a better smile.",
         image:
           "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766312592/teeth2_lvgnnr.png",
       },
@@ -868,7 +868,7 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
         description:
         <>
           <p className="mb-4">Orthognathic surgery is one of its kind to cure jaw discrepancies. Jaw discrepancies are commonly seen in many individuals these days. It includes dislocated jaws relatively to the base of skull or malocclusion which in layman’s language means ‘misaligned teeth’. Orthognathic surgery repositions the bite in individuals who have abnormally large discrepancies.</p>
-          <p>Jaw discrepancies may lead to psychological distress as it compromises one’s facial appearance. It causes traumatic bite that damages gums and palate along with unclear speech. Fine Feather’s upgraded orthognathic surgery will renovate your delicate smile by improving your jaw discrepancies.</p>
+          <p>Jaw discrepancies may lead to psychological distress as it compromises one’s facial appearance. It causes traumatic bite that damages gums and palate along with unclear speech. Mahi Dental Clinic’s upgraded orthognathic surgery will renovate your delicate smile by improving your jaw discrepancies.</p>
         </>
         ,
         image:
@@ -922,7 +922,7 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
       {
         title: "Habit Breaking Appliances",
         description:
-          "If you are concerned with teeth sprouting and oral health care in your children, then don’t miss our free paediatric consultation services for your children’s teeth and oral health concerns. Fine Feather’s specialised pedodontists have 2-3 years of training in child dentistry, catering to children’s individual needs. We offer habit-breaking appliances to support their healthy growth and address challenging habits.",
+          "If you are concerned with teeth sprouting and oral health care in your children, then don’t miss our free paediatric consultation services for your children’s teeth and oral health concerns. Mahi Dental Clinic’s specialised pedodontists have 2-3 years of training in child dentistry, catering to children’s individual needs. We offer habit-breaking appliances to support their healthy growth and address challenging habits.",
         image:
           "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766310511/hba13_hjbd0y.png",
       },
@@ -941,7 +941,7 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
         <li>Misaligned teeth</li>
       </ul>
        <p>
-       At Mahi Dental Dental, our senior pedodontist offers a fixed palatal crib, a customised appliance with stainless steel wires, cemented behind the frontal teeth. This comfortable crib breaks the thumb-sucking habit in a few weeks or months. Reusable if needed, it remains unaffected during eating and is barely visible, ensuring a gradual and successful cure for the habit.
+       At Mahi Dental Clinic, our senior pedodontist offers a fixed palatal crib, a customised appliance with stainless steel wires, cemented behind the frontal teeth. This comfortable crib breaks the thumb-sucking habit in a few weeks or months. Reusable if needed, it remains unaffected during eating and is barely visible, ensuring a gradual and successful cure for the habit.
       </p>
     </>
   ),
