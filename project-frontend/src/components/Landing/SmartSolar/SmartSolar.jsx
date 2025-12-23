@@ -8,12 +8,12 @@ export default function SmartSolar() {
   ];
 
   return (
-    <section className="bg-white py-10">
+    <>
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-4">
         {plans.map((p, i) => (
             <img src={p.img} className="mt-4 w-full h-70 object-contain rounded-xl" />
         ))}
       </div>
-    </section>
+    </>
   );
 }

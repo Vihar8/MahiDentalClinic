@@ -41,7 +41,7 @@ const FAQSection = () => {
           Got Questions?
         </h2>
         <p className="text-white text-xl text-center">
-          We’ve got answers to your most common cleaning concerns.
+          We’ve got answers to your most common Dental concerns.
         </p>
 
         <div className="mt-10 w-full space-y-3">
@@ -119,7 +119,7 @@ const FAQSection = () => {
 
       <div className="mt-16 bg-[#ffff] relative rounded-2xl overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-[#ffff] to-[#ffff]/90 opacity-95" />
-        <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-8 py-16 px-6 md:px-12 relative">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-8 py-16 px-6 md:px-12 relative">
           <div className="flex-1 text-center lg:text-left text-brown ">
             <div className="text-4xl font-bold leading-tight text-[#833100] ">
               Ready For A Cleaner, <br /> Happier Teeth?
@@ -136,22 +136,24 @@ const FAQSection = () => {
             </a>
             </div>
           </div>
-          <div className="flex-1 flex justify-center gap-6 ">
-            <div className="w-44 h-44 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-2xl overflow-hidden">
-              <img
-                src="https://res.cloudinary.com/dflcuzluo/image/upload/v1766382430/vc3_zojnk2.png"
-                alt="Cleaner left"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="w-44 h-44 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-2xl overflow-hidden">
-              <img
-                src="https://www.finefeather.in/wp-content/uploads/2022/11/Screening-Test.jpg"
-                alt="Cleaner right"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
+       <div className="flex-1 flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
+  <div className="w-48 sm:w-40 md:w-56 lg:w-64  aspect-square rounded-2xl overflow-hidden mx-auto">
+    <img
+      src="https://res.cloudinary.com/dflcuzluo/image/upload/v1766382430/vc3_zojnk2.png"
+      alt="Cleaner left"
+      className="w-full h-full object-cover"
+    />
+  </div>
+
+  <div className="w-48 sm:w-40 md:w-56 lg:w-64 aspect-square rounded-2xl overflow-hidden">
+    <img
+      src="https://www.finefeather.in/wp-content/uploads/2022/11/Screening-Test.jpg"
+      alt="Cleaner right"
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
+
         </div>
       </div>
     </section>

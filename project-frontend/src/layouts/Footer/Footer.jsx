@@ -104,7 +104,7 @@ const Footer = () => {
             </Grid>
 
             <Grid item xs={12} sm={12} md={2} lg={3}>
-            <h4 className={`${classes.footerHeading} !mb-2`}>Location</h4>
+            <h4 className={`${classes.footerHeading} !mb-2`}>Our Location</h4>
               <div className={classes.footerMap}>
                 <iframe
                   title="Mahi Dental Clinic Location"
