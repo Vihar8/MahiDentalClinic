@@ -13,39 +13,68 @@ import JWTContext from "../../../contexts/JWTContext";
 const TopMenu = () => {
   const navigate = useNavigate();
   const dropdownRef = useRef(null);
+  // Add this near your other refs
+const mobileMenuRef = useRef(null);
   const dropdownRef1 = useRef(null);
 
-  const handleLogin = () => {
+  const handleAppointment = () => {
+  const menuCheckbox = document.getElementById("show-menu");
+  if (menuCheckbox) menuCheckbox.checked = false;
     navigate("/appointmentpage")
   };
 
 
+  // useEffect(() => {
+  //   const handleClickOutside = (event) => {
+  //     if (
+  //       dropdownRef.current &&
+  //       !dropdownRef.current.contains(event.target)
+  //     )
+
+  //       if (
+  //         dropdownRef1.current &&
+  //         !dropdownRef1.current.contains(event.target)
+  //       ) {
+  //         setDropdownOpen1(false);
+  //       }
+  //   };
+
+  //   document.addEventListener("mousedown", handleClickOutside);
+
+  //   return () => {
+  //     document.removeEventListener("mousedown", handleClickOutside);
+  //   };
+  // }, []);
+
   useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (
-        dropdownRef.current &&
-        !dropdownRef.current.contains(event.target)
-      )
+  const handleClickOutside = (event) => {
+    // Logic for Mobile Sidebar (Checkbox-based)
+    const menuCheckbox = document.getElementById("show-menu");
+    
+    // If the menu is open AND the click is NOT inside the mobile menu wrapper
+    if (
+      menuCheckbox && 
+      menuCheckbox.checked && 
+      mobileMenuRef.current && 
+      !mobileMenuRef.current.contains(event.target)
+    ) {
+      menuCheckbox.checked = false; // This closes the mobile sidebar
+    }
 
-        if (
-          dropdownRef1.current &&
-          !dropdownRef1.current.contains(event.target)
-        ) {
-          setDropdownOpen1(false);
-        }
-    };
+    // Logic for your other dropdowns (Keep your existing logic here)
+    if (dropdownRef1.current && !dropdownRef1.current.contains(event.target)) {
+      setDropdownOpen1(false);
+    }
+  };
 
-    document.addEventListener("mousedown", handleClickOutside);
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
+  document.addEventListener("mousedown", handleClickOutside);
+  return () => document.removeEventListener("mousedown", handleClickOutside);
+}, []);
 
   return (
     <>
       <div className="wrapper flex lg:justify-between w-full">
-        <nav className="w-full">
+        <nav className="w-full" ref={mobileMenuRef}>
           <input type="checkbox" id="show-menu" />
           <label htmlFor="show-menu" className="menu-icon">
             <MenuFoldOutlined className="text-subtitle1" />
@@ -254,7 +283,7 @@ const TopMenu = () => {
                     variant="contained"
                     color="success"
                     fullWidth
-                    onClick={handleLogin}
+                    onClick={handleAppointment}
                     className="btnStyle roundedBtn"
                   >
                     Book An Appointment
@@ -283,7 +312,7 @@ const TopMenu = () => {
                   variant="contained"
                   color="success"
                   fullWidth
-                  onClick={handleLogin}
+                  onClick={handleAppointment}
                   className="btnStyle roundedBtn"
                 >
                   Book An Appointment
