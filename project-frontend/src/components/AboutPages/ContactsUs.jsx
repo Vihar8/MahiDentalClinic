@@ -89,7 +89,7 @@ const ContactsUs = () => {
                   <img
                     src="https://res.cloudinary.com/dj7gzc2mb/image/upload/v1759592481/mahidentallocation_qg7coc.webp"// replace with your image path
                     alt="Mahi Dental Clinic"
-                    className="w-[420px] h-auto rounded-2xl shadow-xl object-cover"
+                    className="w-[420px] h-auto rounded-2xl object-cover"
                   />
                 </div>
 
