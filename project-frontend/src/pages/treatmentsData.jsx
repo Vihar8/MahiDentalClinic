@@ -924,7 +924,7 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
         description:
           "If you are concerned with teeth sprouting and oral health care in your children, then don’t miss our free paediatric consultation services for your children’s teeth and oral health concerns. Mahi Dental Clinic’s specialised pedodontists have 2-3 years of training in child dentistry, catering to children’s individual needs. We offer habit-breaking appliances to support their healthy growth and address challenging habits.",
         image:
-          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766392440/hba13_hjbd0y.png",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766554384/hb1_wqg9z1.png",
       },
       {
          title: "Follow-up & Reinforcement",
@@ -953,7 +953,7 @@ This method suits many and the pain gets back to normal. Sometimes, pain relievi
         description:
           "At Mahi Dental Clinic, our senior pedodontist offers a fixed palatal crib, a customised appliance with stainless steel wires, cemented behind the frontal teeth. This comfortable crib breaks the thumb-sucking habit in a few weeks or months. Reusable if needed, it remains unaffected during eating and is barely visible, ensuring a gradual and successful cure for the habit.",
         image:
-          "https://res.cloudinary.com/dj7gzc2mb/image/upload/v1766392461/hba12_ql0sum.png",
+          "https://res.cloudinary.com/dflcuzluo/image/upload/v1766554152/7a2a0740-2c76-4aa1-9f01-0727c131da63_wgjggw.png",
       },
     ],
   },

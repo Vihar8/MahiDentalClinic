@@ -147,7 +147,7 @@ const FAQSection = () => {
 
   <div className="w-48 sm:w-40 md:w-56 lg:w-64 aspect-square rounded-2xl overflow-hidden">
     <img
-      src="https://www.finefeather.in/wp-content/uploads/2022/11/Screening-Test.jpg"
+      src="https://res.cloudinary.com/dflcuzluo/image/upload/v1766376283/rootcanal2_ezlv27.png"
       alt="Cleaner right"
       className="w-full h-full object-cover"
     />
