@@ -28,7 +28,8 @@ const AboutUs = () => {
 
           {/* Image Section */}
           <div className="md:w-1/2 flex justify-center">
-            <div className="w-[350px] h-[350px] overflow-hidden rounded-xl shadow-lg">
+            {/* <div className="w-[350px] h-[350px] overflow-hidden rounded-xl shadow-lg"> */}
+            <div className="w-full max-w-[350px] aspect-square overflow-hidden rounded-xl shadow-lg">
               <img
                 src="https://res.cloudinary.com/dj7gzc2mb/image/upload/v1759592481/mahidentallocation_qg7coc.webp"
                 width={350}
