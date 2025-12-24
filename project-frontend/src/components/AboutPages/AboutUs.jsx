@@ -8,7 +8,8 @@ import profileimg1 from '/assets/homebanner_family.png';
 const AboutUs = () => {
   return (
     <>
-      <main className="container mx-auto px-24 py-24">
+      {/* <main className="container mx-auto px-8 py-24"> */}
+      <main className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 py-16 md:py-24">
         {/* About Us Section */}
         <section className="flex flex-col md:flex-row items-center md:space-x-8 space-y-8 md:space-y-0">
           {/* Heading Section */}
