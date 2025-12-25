@@ -52,6 +52,7 @@ const AppointmentPage = () => {
           setLoading(false);
          }  else {
           showSnackbar("Error Occured", "error");
+          setLoading(false);
          }
     },
   });
@@ -250,9 +251,15 @@ const AppointmentPage = () => {
                     type="submit"
                     disabled={loading}
                   >
-                     {loading ? <div>Submitting ...</div> : "Submit Info"}
+                     {loading ? <div>Booking Your Appointment... </div> : "Submit Info"}
                   </Button>
                 </Grid>
+
+                {loading && (
+                  <p className="text-center text-md font-normal text-gray-700">
+                  Note: Still working — thanks for your patience 🙏
+                  </p>
+                )}
               </form>
             </Grid>
           </Grid>
