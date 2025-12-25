@@ -124,7 +124,7 @@ const Footer = () => {
         <Container>
           <p className={`${classes.copyrightText}`}>
             Copyright &copy; {getCurrentYear()} Mahi Dental Clinic.
-            All rights reserved | Designed by <a href="" target="_blank" rel="noopener noreferrer">Sujal & Vihar</a>
+            All rights reserved | Design & Developed by <a href="" target="_blank" rel="noopener noreferrer" className="font-bold"> Sujal & Vihar</a>
           </p>
         </Container>
       </div>
